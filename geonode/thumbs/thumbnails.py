@@ -27,6 +27,8 @@ from django.templatetags.static import static
 from django.utils.module_loading import import_string
 
 from geonode.base.bbox_utils import BBOXHelper
+from geonode.documents.models import Document
+from geonode.geoapps.models import GeoApp
 from geonode.maps.models import Map, MapLayer
 from geonode.layers.models import Dataset
 from geonode.utils import OGC_Servers_Handler
@@ -204,7 +206,7 @@ def create_thumbnail(
     return instance.thumbnail_url
 
 
-def _generate_thumbnail_name(instance: Union[Dataset, Map]) -> Optional[str]:
+def _generate_thumbnail_name(instance: Union[Dataset, Map, Document, GeoApp]) -> Optional[str]:
     """
     Method returning file name for the thumbnail.
     If provided instance is a Map, and doesn't have any defined datasets, None is returned.
@@ -219,14 +221,20 @@ def _generate_thumbnail_name(instance: Union[Dataset, Map]) -> Optional[str]:
 
     elif isinstance(instance, Map):
         # if a Map is empty - nothing to do here
-        if not instance.datasets:
+        if not instance.maplayers:
             logger.debug(f"Thumbnail generation skipped - Map {instance.title} has no defined datasets")
             return None
 
         file_name = f"map-{instance.uuid}-thumb.png"
+
+    elif isinstance(instance, Document):
+        file_name = f"document-{instance.uuid}-thumb.png"
+
+    elif isinstance(instance, GeoApp):
+        file_name = f"geoapp-{instance.uuid}-thumb.png"
     else:
         raise ThumbnailError(
-            "Thumbnail generation didn't recognize the provided instance: it's neither a Dataset nor a Map."
+            "Thumbnail generation didn't recognize the provided instance."
         )
 
     return file_name
@@ -273,9 +281,7 @@ def _datasets_locations(
             else:
                 bbox = utils.transform_bbox(instance.bbox, target_crs)
     elif isinstance(instance, Map):
-        map_datasets = instance.datasets.copy()
-
-        for map_dataset in map_datasets:
+        for map_dataset in instance.maplayers.iterator():
 
             if not map_dataset.local and not map_dataset.ows_url:
                 logger.warning(
