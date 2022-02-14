@@ -8,7 +8,7 @@ export MONITORING_ENABLED=True
 export EMAIL_ENABLED=True
 export BROKER_URL=amqp://guest:guest@localhost:5672/
 export ASYNC_SIGNALS=True
-export DJANGO_SETTINGS_MODULE=geonode.local_settings
+export DJANGO_SETTINGS_MODULE=geonode.settings
 
 do_migrations=0
 
