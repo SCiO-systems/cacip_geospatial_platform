@@ -98,7 +98,7 @@ function setup_django_every_time() {
     mkdir -p $GEONODE_LOG
     ln -sf /var/log/apache2/error.log $GEONODE_LOG/apache.log
 
-    export DJANGO_SETTINGS_MODULE=geonode.local_settings
+    export DJANGO_SETTINGS_MODULE=geonode.settings
 
     # django-admin migrate account --settings=geonode.settings
     geonode makemigrations --merge --verbosity 0
