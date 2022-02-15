@@ -32,8 +32,13 @@ services:
       start_period: 60s
     environment:
       - IS_CELERY=False
+    ports:
+      - 8000:8000
+      - 8001:8001
+      - 8080:8080
     entrypoint: ["/usr/src/geonode/entrypoint.sh"]
-    command: "uwsgi --ini /usr/src/geonode/uwsgi.ini"
+    # command: "uwsgi --ini /usr/src/geonode/uwsgi.ini"
+    command: ["python", "manage.py", "runserver", "0.0.0.0:8000"]
 
   # Celery worker that executes celery tasks created by Django.
   celery:

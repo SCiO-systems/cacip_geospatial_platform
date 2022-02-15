@@ -686,6 +686,10 @@ def _get_time_regex(spatial_files, base_file_name):
     return None, None
 
 
+def get_max_upload_size(slug):
+    return getattr(settings, "DEFAULT_MAX_UPLOAD_SIZE", 104857600)
+
+
 def import_imagemosaic_granules(
         spatial_files,
         append_to_mosaic_opts,
