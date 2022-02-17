@@ -37,8 +37,8 @@ services:
       - 8001:8001
       - 8080:8080
     entrypoint: ["/usr/src/geonode/entrypoint.sh"]
-    # command: "uwsgi --ini /usr/src/geonode/uwsgi.ini"
-    command: ["python", "manage.py", "runserver", "0.0.0.0:8000"]
+    command: "uwsgi --ini /usr/src/geonode/uwsgi.ini"
+    #command: ["python", "manage.py", "runserver", "0.0.0.0:8000"]
 
   # Celery worker that executes celery tasks created by Django.
   celery:
