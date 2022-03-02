@@ -35,6 +35,7 @@ from geonode.layers.models import Dataset, Attribute
 class JSONField(forms.CharField):
 
     def clean(self, text):
+        text = text or '{}'
         text = super().clean(text)
         try:
             return json.loads(text)

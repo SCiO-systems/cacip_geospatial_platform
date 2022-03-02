@@ -130,6 +130,7 @@ class Upload(models.Model):
     mosaic_elev_value = models.CharField(max_length=128, null=True)
 
     resume_url = models.CharField(max_length=256, null=True, blank=True)
+    store_spatial_files = models.BooleanField(default=False)
 
     class Meta:
         ordering = ['-date']

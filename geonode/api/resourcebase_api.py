@@ -149,7 +149,7 @@ class CommonModelApi(ModelResource):
         'is_approved',
         'is_published',
         'dirty_state',
-        'metadata_only'
+        'metadata_only',
     ]
 
     def build_filters(self, filters=None, ignore_bad_filters=False, **kwargs):

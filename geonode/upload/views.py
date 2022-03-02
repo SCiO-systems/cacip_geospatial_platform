@@ -228,7 +228,7 @@ def save_step_view(req, session):
         errors = []
         for e in form.errors.values():
             errors.extend([escape(v) for v in e])
-        return error_response(req, errors=errors)
+        return error_response(req, errors=form.errors)
 
 
 def srs_step_view(request, upload_session):
