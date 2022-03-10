@@ -19,6 +19,7 @@
 
 import django
 from django.conf.urls import include, url
+from django.urls import path
 from django.conf import settings
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from django.conf.urls.static import static
@@ -84,8 +85,8 @@ urlpatterns = [
     url(r'^robots\.txt$', TemplateView.as_view(
         template_name='robots.txt'), name='robots'),
     url(r'(.*version\.txt)$', version.version, name='version'),
-    url(r'^messages/', include(msg_urls))
-
+    url(r'^messages/', include(msg_urls)),
+    path('', include('social_django.urls')),
 ]
 
 urlpatterns += [

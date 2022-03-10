@@ -512,6 +512,7 @@ INSTALLED_APPS = (
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
+    'social_django',
 
     # GeoNode
     'geonode',
@@ -526,6 +527,18 @@ MARKDOWNIFY = {
         "WHITELIST_TAGS": os.getenv('MARKDOWNIFY_WHITELIST_TAGS', markdown_white_listed_tags)
     }
 }
+
+
+# Auth0 settings
+SOCIAL_AUTH_TRAILING_SLASH = False  # Remove trailing slash from routes
+SOCIAL_AUTH_AUTH0_DOMAIN = 'dev-gaksts2p.eu.auth0.com'
+SOCIAL_AUTH_AUTH0_KEY = 'v5S1mDfDZt3V22UY9nD1SUuDcnKeFubL'
+SOCIAL_AUTH_AUTH0_SECRET = '7MIZ2CWuinctiEycxTjUcV0eEPBkrzLh5AWG0lMRNbsj4ABL9diVoLisaRLii7LT'
+SOCIAL_AUTH_AUTH0_SCOPE = [
+    'openid',
+    'profile',
+    'email'
+]
 
 MARKDOWNIFY_STRIP = os.getenv('MARKDOWNIFY_STRIP', False)
 
@@ -791,11 +804,10 @@ SECURE_HSTS_INCLUDE_SUBDOMAINS = ast.literal_eval(os.environ.get('SECURE_HSTS_IN
 # Replacement of the default authentication backend in order to support
 # permissions per object.
 AUTHENTICATION_BACKENDS = (
-    # 'oauth2_provider.backends.OAuth2Backend',
-    'django.contrib.auth.backends.ModelBackend',
-    'guardian.backends.ObjectPermissionBackend',
-    'allauth.account.auth_backends.AuthenticationBackend',
+    'social_core.backends.auth0.Auth0OAuth2',
+    'django.contrib.auth.backends.ModelBackend'
 )
+
 
 if 'announcements' in INSTALLED_APPS:
     AUTHENTICATION_BACKENDS += (
@@ -931,8 +943,9 @@ THEME_ACCOUNT_CONTACT_EMAIL = os.getenv(
 # per-deployment settings should go here
 
 # Login and logout urls override
-LOGIN_URL = os.getenv('LOGIN_URL', f'{SITEURL}account/login/')
-LOGOUT_URL = os.getenv('LOGOUT_URL', f'{SITEURL}account/logout/')
+LOGIN_URL = '/login/auth0'
+LOGIN_REDIRECT_URL = '/'
+LOGOUT_REDIRECT_URL = '/'
 
 ACCOUNT_LOGIN_REDIRECT_URL = os.getenv('LOGIN_REDIRECT_URL', SITEURL)
 ACCOUNT_LOGOUT_REDIRECT_URL = os.getenv('LOGOUT_REDIRECT_URL', SITEURL)
