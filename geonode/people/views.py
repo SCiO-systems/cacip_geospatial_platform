@@ -27,6 +27,8 @@ from django.contrib.sites.models import Site
 from django.conf import settings
 from django.http import HttpResponseForbidden
 from django.db.models import Q
+from django.http import HttpResponseRedirect
+from urllib.parse import urlencode
 
 from geonode.tasks.tasks import send_email
 from geonode.people.forms import ProfileForm
@@ -35,6 +37,7 @@ from geonode.people.forms import ForgotUsernameForm
 from geonode.base.views import user_and_group_permission
 from django.views import View
 
+from django.contrib.auth import logout as log_out
 from dal import autocomplete
 
 
@@ -52,6 +55,15 @@ class CustomSignupView(SignupView):
         ret = super().get_context_data(**kwargs)
         ret.update({'account_geonode_local_signup': settings.SOCIALACCOUNT_WITH_GEONODE_LOCAL_SINGUP})
         return ret
+
+
+def logout(request):
+    log_out(request)
+    return_to = urlencode({"returnTo": request.build_absolute_uri("/")})
+    logout_url = "https://{}/v2/logout?client_id={}&{}".format(
+        settings.SOCIAL_AUTH_AUTH0_DOMAIN, settings.SOCIAL_AUTH_AUTH0_KEY, return_to,
+    )
+    return HttpResponseRedirect(logout_url)
 
 
 @login_required

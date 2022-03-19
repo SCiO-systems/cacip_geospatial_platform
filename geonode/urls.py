@@ -41,7 +41,7 @@ from geonode import geoserver
 from geonode.utils import check_ogc_backend
 from geonode.base import register_url_event
 from geonode.messaging.urls import urlpatterns as msg_urls
-from .people.views import CustomSignupView
+from .people.views import CustomSignupView, logout
 from oauth2_provider.urls import (
     app_name as oauth2_app_name,
     base_urlpatterns,
@@ -86,6 +86,7 @@ urlpatterns = [
         template_name='robots.txt'), name='robots'),
     url(r'(.*version\.txt)$', version.version, name='version'),
     url(r'^messages/', include(msg_urls)),
+    path("logout", logout),
     path('', include('social_django.urls')),
 ]
 
