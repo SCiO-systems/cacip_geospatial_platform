@@ -2645,7 +2645,7 @@ msgstr "Nenhum mapa está usando esta camada"
 
 #, fuzzy
 #| msgid "Upload Metadata"
-msgid "Upload Datasets"
+msgid "Upload Layers"
 msgstr "Carregar Metadados"
 
 #, python-format
@@ -2708,7 +2708,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "Upload Layer Metadata"
-msgid "Upload Dataset Metadata"
+msgid "Upload Layer Metadata"
 msgstr "Carregar Metadados da Camada"
 
 msgid "(XML - ISO, FGDC, ebRIM, Dublin Core)"
@@ -2774,7 +2774,7 @@ msgstr "Voltar à Camada"
 
 #, fuzzy
 #| msgid "Upload Layer Style"
-msgid "Upload Dataset Style"
+msgid "Upload Layer Style"
 msgstr "Carregar Estilo da Camada"
 
 msgid "(SLD - Style Layer Descriptor 1.0, 1.1)"
@@ -2794,7 +2794,7 @@ msgstr "Atributos do Conjunto de dados"
 
 #, fuzzy
 #| msgid "Upload Metadata"
-msgid "Upload Dataset"
+msgid "Upload Layer"
 msgstr "Carregar Metadados"
 
 #, fuzzy
@@ -2846,7 +2846,7 @@ msgstr "Tem certeza que deseja remover este arquivo?"
 
 #, fuzzy
 #| msgid "Upload Layer Step: Set SRS"
-msgid "Upload Dataset Step: Set SRS"
+msgid "Upload Layer Step: Set SRS"
 msgstr "Etapa de Carregamento de Camada: Definir SRS"
 
 msgid "Provide CRS for "
@@ -3158,7 +3158,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "Upload Layer Step: CSV Field Mapping"
-msgid "Upload Dataset Step: CSV Field Mapping"
+msgid "Upload Layer Step: CSV Field Mapping"
 msgstr "Etapa de Carregamento de Camada: Mapeamento dos Atributos CSV"
 
 msgid "Geospatial Data"
@@ -3209,7 +3209,7 @@ msgstr "Carregar formulário"
 
 #, fuzzy
 #| msgid "Upload Layer Step: Time"
-msgid "Upload Dataset Step: Time"
+msgid "Upload Layer Step: Time"
 msgstr "Etapa de Carregamento de Camada: Tempo"
 
 msgid "Inspect data for "

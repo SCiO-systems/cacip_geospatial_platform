@@ -2593,7 +2593,7 @@ msgstr "Κανένας χάρτης δεν χρησιμοποιεί αυτή τ�
 
 #, fuzzy
 #| msgid "Upload Metadata"
-msgid "Upload Datasets"
+msgid "Upload Layers"
 msgstr "Μεταφόρτωση Μεταδεδομένων"
 
 #, python-format
@@ -2646,7 +2646,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "Upload Layer Metadata"
-msgid "Upload Dataset Metadata"
+msgid "Upload Layer Metadata"
 msgstr "Μεταφόρτωση Μεταδεδομένων Επιπέδου"
 
 msgid "(XML - ISO, FGDC, ebRIM, Dublin Core)"
@@ -2707,7 +2707,7 @@ msgstr "Επιστροφή στο Επίπεδο"
 
 #, fuzzy
 #| msgid "Upload Layer Style"
-msgid "Upload Dataset Style"
+msgid "Upload Layer Style"
 msgstr "Μεταφόρτωση Στυλ Επιπέδου"
 
 msgid "(SLD - Style Layer Descriptor 1.0, 1.1)"
@@ -2727,7 +2727,7 @@ msgstr "Χαρακτηριστικά"
 
 #, fuzzy
 #| msgid "Upload Metadata"
-msgid "Upload Dataset"
+msgid "Upload Layer"
 msgstr "Μεταφόρτωση Μεταδεδομένων"
 
 #, fuzzy
@@ -2779,7 +2779,7 @@ msgstr "Είστε σίγουροι ότι θέλετε να διαγράψετ�
 
 #, fuzzy
 #| msgid "Upload Layer Step: Set SRS"
-msgid "Upload Dataset Step: Set SRS"
+msgid "Upload Layer Step: Set SRS"
 msgstr "Βήμα Μεταφόρτωσης Επιπέδου: Ορισμός SRS"
 
 msgid "Provide CRS for "
@@ -2992,7 +2992,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "Upload Layer Step: CSV Field Mapping"
-msgid "Upload Dataset Step: CSV Field Mapping"
+msgid "Upload Layer Step: CSV Field Mapping"
 msgstr "Βήμα Μεταφόρτωσης Επιπέδου: Αντιστοίχηση Πεδίων Αρχείου CSV"
 
 msgid "Geospatial Data"
@@ -3042,7 +3042,7 @@ msgstr "Μεταφόρτωση Φόρμας"
 
 #, fuzzy
 #| msgid "Upload Layer Step: Time"
-msgid "Upload Dataset Step: Time"
+msgid "Upload Layer Step: Time"
 msgstr "Βήμα Μεταφόρτωσης Επιπέδου: Χρόνος"
 
 msgid "Inspect data for "

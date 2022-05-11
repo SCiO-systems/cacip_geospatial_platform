@@ -2453,7 +2453,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "Edit Map Metadata"
-msgid "Upload Datasets"
+msgid "Upload Layers"
 msgstr "Edit Map Metadata"
 
 #, python-format
@@ -2501,7 +2501,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "Edit Map Metadata"
-msgid "Upload Dataset Metadata"
+msgid "Upload Layer Metadata"
 msgstr "Edit Map Metadata"
 
 msgid "(XML - ISO, FGDC, ebRIM, Dublin Core)"
@@ -2551,7 +2551,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "Edit Map Metadata"
-msgid "Upload Dataset Style"
+msgid "Upload Layer Style"
 msgstr "Edit Map Metadata"
 
 msgid "(SLD - Style Layer Descriptor 1.0, 1.1)"
@@ -2571,7 +2571,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "Edit Map Metadata"
-msgid "Upload Dataset"
+msgid "Upload Layer"
 msgstr "Edit Map Metadata"
 
 #, fuzzy
@@ -2619,7 +2619,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "Edit Map Metadata"
-msgid "Upload Dataset Step: Set SRS"
+msgid "Upload Layer Step: Set SRS"
 msgstr "Edit Map Metadata"
 
 msgid "Provide CRS for "
@@ -2808,7 +2808,7 @@ msgid ""
 "                        "
 msgstr ""
 
-msgid "Upload Dataset Step: CSV Field Mapping"
+msgid "Upload Layer Step: CSV Field Mapping"
 msgstr ""
 
 msgid "Geospatial Data"
@@ -2848,7 +2848,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "Edit Map Metadata"
-msgid "Upload Dataset Step: Time"
+msgid "Upload Layer Step: Time"
 msgstr "Edit Map Metadata"
 
 msgid "Inspect data for "

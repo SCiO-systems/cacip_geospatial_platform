@@ -2513,7 +2513,7 @@ msgstr "Diese Ebene wird in keiner Karte verwendet"
 
 #, fuzzy
 #| msgid "Upload status"
-msgid "Upload Datasets"
+msgid "Upload Layers"
 msgstr "Upload Status"
 
 #, python-format
@@ -2572,7 +2572,7 @@ msgstr "Folgende Objekte sind benötigt:"
 
 #, fuzzy
 #| msgid "Upload Layer Metadata"
-msgid "Upload Dataset Metadata"
+msgid "Upload Layer Metadata"
 msgstr "Ebenen Metadata hochladen"
 
 msgid "(XML - ISO, FGDC, ebRIM, Dublin Core)"
@@ -2638,7 +2638,7 @@ msgstr "Zurück zur Ebene"
 
 #, fuzzy
 #| msgid "Upload Layer Style"
-msgid "Upload Dataset Style"
+msgid "Upload Layer Style"
 msgstr "Ebenen Stil hochladen"
 
 msgid "(SLD - Style Layer Descriptor 1.0, 1.1)"
@@ -2658,7 +2658,7 @@ msgstr "Datensatz Attribute"
 
 #, fuzzy
 #| msgid "Upload status"
-msgid "Upload Dataset"
+msgid "Upload Layer"
 msgstr "Upload Status"
 
 msgid "Upload status"
@@ -2707,7 +2707,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "Upload Layer Step: Set SRS"
-msgid "Upload Dataset Step: Set SRS"
+msgid "Upload Layer Step: Set SRS"
 msgstr "Ebene hochladen Schritt: Setze SRS"
 
 msgid "Provide CRS for "
@@ -3009,7 +3009,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "Upload Layer Step: CSV Field Mapping"
-msgid "Upload Dataset Step: CSV Field Mapping"
+msgid "Upload Layer Step: CSV Field Mapping"
 msgstr "Layer hochladen Schritt: CSV-Feldzuordnung"
 
 msgid "Geospatial Data"
@@ -3060,7 +3060,7 @@ msgstr "Uploadformular"
 
 #, fuzzy
 #| msgid "Upload Layer Step: Time"
-msgid "Upload Dataset Step: Time"
+msgid "Upload Layer Step: Time"
 msgstr "Layer hochladen Schritt: Zeit"
 
 msgid "Inspect data for "
