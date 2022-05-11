@@ -566,7 +566,7 @@ REST_API_DEFAULT_PAGE_QUERY_PARAM = os.getenv('REST_API_DEFAULT_PAGE_QUERY_PARAM
 
 DYNAMIC_REST = {
     # DEBUG: enable/disable internal debugging
-    'DEBUG': False,
+    'DEBUG': True,
 
     # ENABLE_BROWSABLE_API: enable/disable the browsable API.
     # It can be useful to disable it in production.
@@ -797,7 +797,7 @@ CORS_ORIGIN_ALLOW_ALL = ast.literal_eval(os.environ.get('CORS_ORIGIN_ALLOW_ALL',
 X_FRAME_OPTIONS = os.environ.get('X_FRAME_OPTIONS', 'DENY')
 SECURE_CONTENT_TYPE_NOSNIFF = ast.literal_eval(os.environ.get('SECURE_CONTENT_TYPE_NOSNIFF', 'True'))
 SECURE_BROWSER_XSS_FILTER = ast.literal_eval(os.environ.get('SECURE_BROWSER_XSS_FILTER', 'True'))
-SECURE_SSL_REDIRECT = ast.literal_eval(os.environ.get('SECURE_SSL_REDIRECT', 'False'))
+SECURE_SSL_REDIRECT = False
 SECURE_HSTS_SECONDS = int(os.getenv('SECURE_HSTS_SECONDS', '3600'))
 SECURE_HSTS_INCLUDE_SUBDOMAINS = ast.literal_eval(os.environ.get('SECURE_HSTS_INCLUDE_SUBDOMAINS', 'True'))
 
