@@ -2733,7 +2733,7 @@ msgstr "Ei karttoja käyttävät tätä kerrosta"
 
 #, fuzzy
 #| msgid "Download Metadata"
-msgid "Upload Datasets"
+msgid "Upload Layers"
 msgstr "Lataa Metadata"
 
 #, python-format
@@ -2787,7 +2787,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "Upload Layer"
-msgid "Upload Dataset Metadata"
+msgid "Upload Layer Metadata"
 msgstr "Tallennettu Layer"
 
 msgid "(XML - ISO, FGDC, ebRIM, Dublin Core)"
@@ -2848,7 +2848,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "Upload Layer Step 2"
-msgid "Upload Dataset Style"
+msgid "Upload Layer Style"
 msgstr "Tallennettu Layer Vaihe 2"
 
 msgid "(SLD - Style Layer Descriptor 1.0, 1.1)"
@@ -2870,7 +2870,7 @@ msgstr "Attribuutteja"
 
 #, fuzzy
 #| msgid "Download Metadata"
-msgid "Upload Dataset"
+msgid "Upload Layer"
 msgstr "Lataa Metadata"
 
 #, fuzzy
@@ -2922,7 +2922,7 @@ msgstr "Oletko varma, että haluat poistaa tämän latauksen?"
 
 #, fuzzy
 #| msgid "Upload Layer Step 2"
-msgid "Upload Dataset Step: Set SRS"
+msgid "Upload Layer Step: Set SRS"
 msgstr "Tallennettu Layer Vaihe 2"
 
 msgid "Provide CRS for "
@@ -3134,7 +3134,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "Upload Layer Step 2"
-msgid "Upload Dataset Step: CSV Field Mapping"
+msgid "Upload Layer Step: CSV Field Mapping"
 msgstr "Tallennettu Layer Vaihe 2"
 
 msgid "Geospatial Data"
@@ -3192,7 +3192,7 @@ msgstr "Tallennettu Form"
 
 #, fuzzy
 #| msgid "Upload Layer Step 2"
-msgid "Upload Dataset Step: Time"
+msgid "Upload Layer Step: Time"
 msgstr "Tallennettu Layer Vaihe 2"
 
 msgid "Inspect data for "

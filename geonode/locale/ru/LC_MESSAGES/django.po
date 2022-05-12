@@ -2734,7 +2734,7 @@ msgstr "Нет карт с таким слоем"
 
 #, fuzzy
 #| msgid "Download Metadata"
-msgid "Upload Datasets"
+msgid "Upload Layers"
 msgstr "Скачать метаданные"
 
 #, python-format
@@ -2794,7 +2794,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "Upload Layer"
-msgid "Upload Dataset Metadata"
+msgid "Upload Layer Metadata"
 msgstr "Загрузить слой"
 
 msgid "(XML - ISO, FGDC, ebRIM, Dublin Core)"
@@ -2858,7 +2858,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "Upload Layer Step 2"
-msgid "Upload Dataset Style"
+msgid "Upload Layer Style"
 msgstr "Загрузка слоя Шаг 2"
 
 msgid "(SLD - Style Layer Descriptor 1.0, 1.1)"
@@ -2880,7 +2880,7 @@ msgstr "Атрибуты"
 
 #, fuzzy
 #| msgid "Download Metadata"
-msgid "Upload Dataset"
+msgid "Upload Layer"
 msgstr "Скачать метаданные"
 
 #, fuzzy
@@ -2932,7 +2932,7 @@ msgstr "Вы уверены, что хотите удалить эту загр�
 
 #, fuzzy
 #| msgid "Upload Layer Step 2"
-msgid "Upload Dataset Step: Set SRS"
+msgid "Upload Layer Step: Set SRS"
 msgstr "Загрузка слоя Шаг 2"
 
 msgid "Provide CRS for "
@@ -3145,7 +3145,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "Upload Layer Step 2"
-msgid "Upload Dataset Step: CSV Field Mapping"
+msgid "Upload Layer Step: CSV Field Mapping"
 msgstr "Загрузка слоя Шаг 2"
 
 msgid "Geospatial Data"
@@ -3205,7 +3205,7 @@ msgstr "Форма загрузки"
 
 #, fuzzy
 #| msgid "Upload Layer Step 2"
-msgid "Upload Dataset Step: Time"
+msgid "Upload Layer Step: Time"
 msgstr "Загрузка слоя Шаг 2"
 
 msgid "Inspect data for "

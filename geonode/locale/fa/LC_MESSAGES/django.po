@@ -2731,7 +2731,7 @@ msgstr "نقشه ای با استفاده از این لایه"
 
 #, fuzzy
 #| msgid "Download Metadata"
-msgid "Upload Datasets"
+msgid "Upload Layers"
 msgstr "دانلود فراداده"
 
 #, python-format
@@ -2785,7 +2785,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "Upload Layer"
-msgid "Upload Dataset Metadata"
+msgid "Upload Layer Metadata"
 msgstr "بارگذاری لایه"
 
 msgid "(XML - ISO, FGDC, ebRIM, Dublin Core)"
@@ -2846,7 +2846,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "Upload Layer Step 2"
-msgid "Upload Dataset Style"
+msgid "Upload Layer Style"
 msgstr "بارگذاری لایه مرحله 2"
 
 msgid "(SLD - Style Layer Descriptor 1.0, 1.1)"
@@ -2868,7 +2868,7 @@ msgstr "خواص"
 
 #, fuzzy
 #| msgid "Download Metadata"
-msgid "Upload Dataset"
+msgid "Upload Layer"
 msgstr "دانلود فراداده"
 
 #, fuzzy
@@ -2920,7 +2920,7 @@ msgstr "آیا مطمئن هستید که می خواهید این آپلود ر
 
 #, fuzzy
 #| msgid "Upload Layer Step 2"
-msgid "Upload Dataset Step: Set SRS"
+msgid "Upload Layer Step: Set SRS"
 msgstr "بارگذاری لایه مرحله 2"
 
 msgid "Provide CRS for "
@@ -3131,7 +3131,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "Upload Layer Step 2"
-msgid "Upload Dataset Step: CSV Field Mapping"
+msgid "Upload Layer Step: CSV Field Mapping"
 msgstr "بارگذاری لایه مرحله 2"
 
 msgid "Geospatial Data"
@@ -3188,7 +3188,7 @@ msgstr "فرم ارسال"
 
 #, fuzzy
 #| msgid "Upload Layer Step 2"
-msgid "Upload Dataset Step: Time"
+msgid "Upload Layer Step: Time"
 msgstr "بارگذاری لایه مرحله 2"
 
 msgid "Inspect data for "
