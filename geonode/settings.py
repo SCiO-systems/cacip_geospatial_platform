@@ -530,6 +530,9 @@ MARKDOWNIFY = {
 
 
 # Auth0 settings
+SOCIAL_AUTH_AUTH0_DOMAIN='dev-gaksts2p.eu.auth0.com'
+SOCIAL_AUTH_AUTH0_KEY='v5S1mDfDZt3V22UY9nD1SUuDcnKeFubL'
+SOCIAL_AUTH_AUTH0_SECRET='7MIZ2CWuinctiEycxTjUcV0eEPBkrzLh5AWG0lMRNbsj4ABL9diVoLisaRLii7LT'
 SOCIAL_AUTH_TRAILING_SLASH = False  # Remove trailing slash from routes
 SOCIAL_AUTH_AUTH0_SCOPE = [
     'openid',

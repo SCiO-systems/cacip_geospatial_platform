@@ -61,9 +61,16 @@ sitemaps = {
 
 homepage = register_url_event()(TemplateView.as_view(template_name='index.html'))
 
+from django.shortcuts import redirect
+
+def redirect_view(request):
+    response = redirect('/catalogue/#/search/filter/')
+    return response
+
+
 urlpatterns = [
     url(r'^$',
-        homepage,
+        redirect_view,
         name='home'),
     url(r'^help/$',
         TemplateView.as_view(template_name='help.html'),
