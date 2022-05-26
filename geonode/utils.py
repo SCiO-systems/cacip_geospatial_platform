@@ -672,6 +672,8 @@ def resolve_object(request, model, query, permission='base.view_resourcebase',
                                      'change_dataset_style']:
         if obj.__class__.__name__ == 'Dataset':
             obj_to_check = obj
+    if request.method == 'GET':
+        return obj
     if permission:
         if permission_required or request.method != 'GET':
             if user in obj_group_managers:
