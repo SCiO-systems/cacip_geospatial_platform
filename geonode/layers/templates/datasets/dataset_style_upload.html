@@ -9,7 +9,7 @@
 {% load guardian_tags %}
 {% load client_lib_tags %}
 
-{% block title %} {% trans "Upload Dataset Metadata"  %} - {{ block.super }}  {% endblock %}
+{% block title %} {% trans "Upload Layer Metadata"  %} - {{ block.super }}  {% endblock %}
 
 {% block body_class %}layers upload{% endblock %}
 
@@ -24,7 +24,7 @@
 <div class="page-header">
   <a href="{% dataset_list_url %}" class="btn btn-primary pull-right" style="margin-left: 3px;">{% trans "Explore Datasets" %}</a>
   <a href="{{ resource.get_absolute_url }}" class="btn btn-primary pull-right" style="margin-left: 3px;">{% trans "Return to Dataset" %}</a>
-  <h2 class="page-title">{% trans "Upload Dataset Style" %} <small>{% trans "(SLD - Style Layer Descriptor 1.0, 1.1)" %}<small></h2>
+  <h2 class="page-title">{% trans "Upload Layer Style" %} <small>{% trans "(SLD - Style Layer Descriptor 1.0, 1.1)" %}<small></h2>
 </div>
 
 <div class="row">

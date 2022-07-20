@@ -588,7 +588,6 @@ class CommonModelApi(ModelResource):
 
         Mostly a useful shortcut/hook.
         """
-
         # If an user does not have at least view permissions, he won't be able
         # to see the resource at all.
         filtered_objects_ids = None

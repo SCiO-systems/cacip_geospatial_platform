@@ -2453,7 +2453,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "Edit Map Metadata"
-msgid "Upload Datasets"
+msgid "Upload Layers"
 msgstr "Edit Map Metadata"
 
 #, python-format

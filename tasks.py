@@ -45,7 +45,9 @@ def waitfordbs(ctx):
 def waitforgeoserver(ctx):
     print("****************************geoserver********************************")
     while not _rest_api_availability(f"{os.environ['GEOSERVER_LOCATION']}rest"):
+        print('GEOSERVER_LOCATION', f"{os.environ['GEOSERVER_LOCATION']}rest")
         print("Wait for GeoServer API availability...")
+        break
     print("GeoServer is available for HTTP calls!")
 
 
@@ -177,13 +179,11 @@ def update(ctx):
     ctx.run("echo export LOGOUT_REDIRECT_URL=\
 {siteurl} >> {override_fn}".format(**envs), pty=True)
     ctx.run(f"source {override_env}", pty=True)
-    print("****************************finalize env**********************************")
     ctx.run("env", pty=True)
 
 
 @task
 def migrations(ctx):
-    print("**************************migrations*******************************")
     ctx.run(f"python manage.py migrate --noinput --settings={_localsettings()}", pty=True)
     try:
         ctx.run(f"python manage.py rebuild_index --noinput --settings={_localsettings()}", pty=True)
@@ -193,14 +193,12 @@ def migrations(ctx):
 
 @task
 def statics(ctx):
-    print("**************************statics*******************************")
     ctx.run('mkdir -p /mnt/volumes/statics/{static,uploads}')
     ctx.run(f"python manage.py collectstatic --noinput --settings={_localsettings()}", pty=True)
 
 
 @task
 def prepare(ctx):
-    print("**********************prepare fixture***************************")
     ctx.run("rm -rf /tmp/default_oauth_apps_docker.json", pty=True)
     _prepare_oauth_fixture()
     ctx.run("rm -rf /tmp/default_site.json", pty=True)
@@ -229,7 +227,6 @@ def prepare(ctx):
 
 @task
 def fixtures(ctx):
-    print("**************************fixtures********************************")
     ctx.run(f"python manage.py loaddata sample_admin \
 --settings={_localsettings()}", pty=True)
     ctx.run(f"python manage.py loaddata /tmp/default_oauth_apps_docker.json \
@@ -240,20 +237,17 @@ def fixtures(ctx):
 
 @task
 def collectstatic(ctx):
-    print("************************static artifacts******************************")
     ctx.run(f"django-admin.py collectstatic --noinput \
 --settings={_localsettings()}", pty=True)
 
 
 @task
 def geoserverfixture(ctx):
-    print("********************geoserver fixture********************************")
     _geoserver_info_provision(f"{os.environ['GEOSERVER_LOCATION']}rest/")
 
 
 @task
 def monitoringfixture(ctx):
-    print("*******************monitoring fixture********************************")
     ctx.run("rm -rf /tmp/default_monitoring_apps_docker.json", pty=True)
     _prepare_monitoring_fixture()
     try:
@@ -265,14 +259,12 @@ def monitoringfixture(ctx):
 
 @task
 def updategeoip(ctx):
-    print("**************************update geoip*******************************")
     if ast.literal_eval(os.environ.get('MONITORING_ENABLED', 'False')):
         ctx.run(f"django-admin.py updategeoip --settings={_localsettings()}", pty=True)
 
 
 @task
 def updateadmin(ctx):
-    print("***********************update admin details**************************")
     ctx.run("rm -rf /tmp/django_admin_docker.json", pty=True)
     _prepare_admin_fixture(
         os.environ.get('ADMIN_PASSWORD', 'admin'),
@@ -283,14 +275,12 @@ def updateadmin(ctx):
 
 @task
 def collectmetrics(ctx):
-    print("************************collect metrics******************************")
     ctx.run(f"python -W ignore manage.py collect_metrics  \
 --settings={_localsettings()} -n -t xml", pty=True)
 
 
 @task
 def initialized(ctx):
-    print("**************************init file********************************")
     ctx.run('date > /mnt/volumes/statics/geonode_init.lock')
 
 
@@ -413,7 +403,6 @@ def _geoserver_info_provision(url):
 </userPassword>"""
 
     response = cat.http_request(f"{cat.service_url}/security/self/password", method="PUT", data=data, headers=headers)
-    print(f"Response Code: {response.status_code}")
     if response.status_code == 200:
         print("GeoServer admin password updated SUCCESSFULLY!")
     else:

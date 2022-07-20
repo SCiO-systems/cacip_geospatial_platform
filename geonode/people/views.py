@@ -16,6 +16,7 @@
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 #
 #########################################################################
+import logging
 from allauth.account.views import SignupView
 from django.contrib.auth import get_user_model
 from django.contrib.auth.decorators import login_required
@@ -39,6 +40,8 @@ from django.views import View
 
 from django.contrib.auth import logout as log_out
 from dal import autocomplete
+
+logger = logging.getLogger(__name__)
 
 
 class SetUserLayerPermission(View):

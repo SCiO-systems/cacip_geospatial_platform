@@ -2631,7 +2631,7 @@ msgstr "لا خرائط تستخدم هذه الطبقة"
 
 #, fuzzy
 #| msgid "Upload Metadata"
-msgid "Upload Datasets"
+msgid "Upload Layers"
 msgstr "تحميل البيانات الوصفية"
 
 #, python-format
@@ -2693,7 +2693,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "Upload Layer Metadata"
-msgid "Upload Dataset Metadata"
+msgid "Upload Layer Metadata"
 msgstr "تحميل البيانات الوصفية للطبقة"
 
 msgid "(XML - ISO, FGDC, ebRIM, Dublin Core)"
@@ -2758,7 +2758,7 @@ msgstr "العودة إلى الطبقة"
 
 #, fuzzy
 #| msgid "Upload Layer Style"
-msgid "Upload Dataset Style"
+msgid "Upload Layer Style"
 msgstr "تحميل نمط الطبقة"
 
 msgid "(SLD - Style Layer Descriptor 1.0, 1.1)"
@@ -2778,7 +2778,7 @@ msgstr "سمات مجموعة البيانات"
 
 #, fuzzy
 #| msgid "Upload Metadata"
-msgid "Upload Dataset"
+msgid "Upload Layer"
 msgstr "تحميل البيانات الوصفية"
 
 #, fuzzy
@@ -2830,7 +2830,7 @@ msgstr "هل أنت متأكد أنك تريد حذف هذا التحميل؟"
 
 #, fuzzy
 #| msgid "Upload Layer Step: Set SRS"
-msgid "Upload Dataset Step: Set SRS"
+msgid "Upload Layer Step: Set SRS"
 msgstr "خطوة تحميل طبقة: تعيين نظام المرجع المكاني"
 
 msgid "Provide CRS for "
@@ -3114,7 +3114,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "Upload Layer Step: CSV Field Mapping"
-msgid "Upload Dataset Step: CSV Field Mapping"
+msgid "Upload Layer Step: CSV Field Mapping"
 msgstr "خطوة تحميل طبقة: تعيين حقل CSV"
 
 msgid "Geospatial Data"
@@ -3162,7 +3162,7 @@ msgstr "نموذج التحميل"
 
 #, fuzzy
 #| msgid "Upload Layer Step: Time"
-msgid "Upload Dataset Step: Time"
+msgid "Upload Layer Step: Time"
 msgstr "خطوة تحميل طبقة: الوقت"
 
 msgid "Inspect data for "

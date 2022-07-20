@@ -83,7 +83,7 @@ pinax-ratings==4.0.0
 
 # GeoNode org maintained apps.
 # django-geonode-mapstore-client>=4.0.0
--e git+https://github.com/SCiO-systems/geonode-mapstore-client.git@master#egg=django_geonode_mapstore_client
+-e git+https://github.com/SCiO-systems/geonode-mapstore-client.git@custom-theme-3#egg=django_geonode_mapstore_client
 geonode-avatar==5.0.7
 geonode-oauth-toolkit==2.2.2
 geonode-user-messages==2.0.2
@@ -162,3 +162,4 @@ flaky==3.7.0
 python-jose==3.3.0
 social-auth-app-django==5.0.0
 
+ipdb==0.13.9
