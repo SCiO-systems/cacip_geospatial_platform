@@ -147,6 +147,7 @@ def save_step_view(req, session):
     target_store = None
     if form.is_valid():
         tempdir = tempfile.mkdtemp(dir=settings.STATIC_ROOT)
+        print(tempdir)
         logger.debug(f"valid_extensions: {form.cleaned_data['valid_extensions']}")
         relevant_files = select_relevant_files(
             form.cleaned_data["valid_extensions"],
@@ -189,6 +190,13 @@ def save_step_view(req, session):
             charset_encoding=form.cleaned_data["charset"],
             target_store=target_store
         )
+
+        import_session.href = import_session.href.replace('http://http://', 'http://')
+        for task in import_session.tasks:
+            task.href = task.href.replace('http://http://', 'http://')
+            task.progress = task.progress.replace('http://http://', 'http://')
+            task.layer.href = task.layer.href.replace('http://http://', 'http://')
+
         import_session.tasks[0].set_charset(form.cleaned_data["charset"])
         sld = None
         if spatial_files[0].sld_files:
@@ -577,6 +585,13 @@ def final_step_view(req, upload_session):
                     if dataset.exists():
                         dataset_id = dataset.first().resourcebase_ptr_id
 
+                if upload_session and upload_session.import_session:
+                    upload_session.import_session.href = upload_session.import_session.href.replace('http://http://',
+                                                                                                    'http://')
+                    for task in upload_session.import_session.tasks:
+                        task.href = task.href.replace('http://http://', 'http://')
+                        task.progress = task.progress.replace('http://http://', 'http://')
+                        task.layer.href = task.layer.href.replace('http://http://', 'http://')
                 saved_dataset = final_step(upload_session, upload_session.user, dataset_id)
 
                 assert saved_dataset
@@ -705,6 +720,13 @@ def view(req, step=None):
             except Exception as e:
                 logger.warning(e)
                 return error_response(req, errors=e.args)
+
+        if upload_session and upload_session.import_session:
+            upload_session.import_session.href = upload_session.import_session.href.replace('http://http://', 'http://')
+            for task in upload_session.import_session.tasks:
+                task.href = task.href.replace('http://http://', 'http://')
+                task.progress = task.progress.replace('http://http://', 'http://')
+                task.layer.href = task.layer.href.replace('http://http://', 'http://')
 
         resp = _steps[step](req, upload_session)
         resp_js = None

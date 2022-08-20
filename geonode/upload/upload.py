@@ -583,6 +583,12 @@ def final_step(upload_session, user, charset="UTF-8", dataset_id=None):
 
     # Create the style and assign it to the created resource
     # FIXME: Put this in gsconfig.py
+    import_session.href = import_session.href.replace('http://http://', 'http://')
+    for task in import_session.tasks:
+        task.href = task.href.replace('http://http://', 'http://')
+        task.progress = task.progress.replace('http://http://', 'http://')
+        task.layer.href = task.layer.href.replace('http://http://', 'http://')
+        
     task = import_session.tasks[0]
     task.set_charset(charset)
 
