@@ -189,6 +189,13 @@ def save_step_view(req, session):
             charset_encoding=form.cleaned_data["charset"],
             target_store=target_store
         )
+        import_session.href = import_session.href.replace('http://https://', 'https://')
+        for task in import_session.tasks:
+            task.href = task.href.replace('http://https://', 'https://')
+            task.progress = task.progress.replace('http://https://', 'https://')
+            task.layer.href = task.layer.href.replace('http://https://', 'https://')
+    
+
         import_session.tasks[0].set_charset(form.cleaned_data["charset"])
         sld = None
         if spatial_files[0].sld_files:
@@ -434,6 +441,14 @@ def check_step_view(request, upload_session):
                     upload_session.completed_step = 'time' if _ALLOW_TIME_STEP else 'check'
     elif request.method != 'POST':
         raise Exception()
+
+    if upload_session.import_session:
+         upload_session.import_session.href = upload_session.import_session.href.replace('http://https://', 'https://')
+         for task in  upload_session.import_session.tasks:
+             task.href = task.href.replace('http://https://', 'https://')
+             task.progress = task.progress.replace('http://https://', 'https://')
+             task.layer.href = task.layer.href.replace('http://https://', 'https://')
+
     return next_step_response(request, upload_session)
 
 

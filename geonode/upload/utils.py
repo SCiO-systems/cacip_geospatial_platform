@@ -615,7 +615,7 @@ def run_import(upload_session, async_upload=_ASYNC_UPLOAD):
         )
         _log(
             f'setting target datastore {target.name} {target.workspace.name}')
-        task.set_target(target.name, target.workspace.name)
+        #task.set_target(target.name, target.workspace.name)
     else:
         target = task.target
 

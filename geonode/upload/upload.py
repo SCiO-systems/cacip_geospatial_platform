@@ -561,9 +561,17 @@ def srs_step(upload_session, source, target):
 
 
 def final_step(upload_session, user, charset="UTF-8", dataset_id=None):
+    if upload_session.import_session:
+         upload_session.import_session.href = upload_session.import_session.href.replace('http://https://', 'https://')
+         for task in  upload_session.import_session.tasks:
+             task.href = task.href.replace('http://https://', 'https://')
+             task.progress = task.progress.replace('http://https://', 'https://')
+             task.layer.href = task.layer.href.replace('http://https://', 'https://')
+
     import_session = upload_session.import_session
     import_id = import_session.id
 
+  
     _log(f'Reloading session {import_id} to check validity')
     try:
         import_session = import_session.reload()
@@ -577,6 +585,13 @@ def final_step(upload_session, user, charset="UTF-8", dataset_id=None):
         upload = Upload.objects.filter(import_id=import_id).get()
         if upload.state == enumerations.STATE_RUNNING:
             return
+
+    if upload_session.import_session:
+         upload_session.import_session.href = upload_session.import_session.href.replace('http://https://', 'https://')
+         for task in  upload_session.import_session.tasks:
+             task.href = task.href.replace('http://https://', 'https://')
+             task.progress = task.progress.replace('http://https://', 'https://')
+             task.layer.href = task.layer.href.replace('http://https://', 'https://')
 
     upload_session.import_session = import_session
     Upload.objects.update_from_session(upload_session)
