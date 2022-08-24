@@ -2657,7 +2657,7 @@ msgstr "No hay mapas usando esta capa"
 
 #, fuzzy
 #| msgid "Upload Status"
-msgid "Upload Datasets"
+msgid "Upload Layers"
 msgstr "Estado de carga"
 
 #, python-format
@@ -2721,7 +2721,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "Upload Layer Metadata"
-msgid "Upload Dataset Metadata"
+msgid "Upload Layer Metadata"
 msgstr "Subir Metadatos de Capa"
 
 msgid "(XML - ISO, FGDC, ebRIM, Dublin Core)"
@@ -2787,7 +2787,7 @@ msgstr "Volver  a la Capa"
 
 #, fuzzy
 #| msgid "Upload Layer Style"
-msgid "Upload Dataset Style"
+msgid "Upload Layer Style"
 msgstr "Subir estilo de capa"
 
 msgid "(SLD - Style Layer Descriptor 1.0, 1.1)"
@@ -2807,7 +2807,7 @@ msgstr "Atributos del Conjunto de Datos"
 
 #, fuzzy
 #| msgid "Upload Status"
-msgid "Upload Dataset"
+msgid "Upload Layer"
 msgstr "Estado de carga"
 
 #, fuzzy
@@ -2859,7 +2859,7 @@ msgstr "¿Seguro que desea eliminar esta carga?"
 
 #, fuzzy
 #| msgid "Upload Layer Step: Set SRS"
-msgid "Upload Dataset Step: Set SRS"
+msgid "Upload Layer Step: Set SRS"
 msgstr "Paso de la capa de carga: establecer SRS"
 
 msgid "Provide CRS for "
@@ -3172,7 +3172,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "Upload Layer Step: CSV Field Mapping"
-msgid "Upload Dataset Step: CSV Field Mapping"
+msgid "Upload Layer Step: CSV Field Mapping"
 msgstr "Paso de la capa de carga: mapeo de campo CSV"
 
 msgid "Geospatial Data"
@@ -3223,7 +3223,7 @@ msgstr "Formulario para Subir"
 
 #, fuzzy
 #| msgid "Upload Layer Step: Time"
-msgid "Upload Dataset Step: Time"
+msgid "Upload Layer Step: Time"
 msgstr "Paso de la capa de carga: tiempo"
 
 msgid "Inspect data for "

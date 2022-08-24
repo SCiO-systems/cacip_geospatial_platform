@@ -2705,7 +2705,7 @@ msgstr "ეს ქმედება გავლენას ახდენს
 
 #, fuzzy
 #| msgid "Download Metadata"
-msgid "Upload Datasets"
+msgid "Upload Layers"
 msgstr "მეტამონაცემის ჩამოტვირთვა"
 
 #, python-format
@@ -2765,7 +2765,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "Upload Layer"
-msgid "Upload Dataset Metadata"
+msgid "Upload Layer Metadata"
 msgstr "ფენის ატვირთვა"
 
 msgid "(XML - ISO, FGDC, ebRIM, Dublin Core)"
@@ -2829,7 +2829,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "Upload Layer Step 2"
-msgid "Upload Dataset Style"
+msgid "Upload Layer Style"
 msgstr "ფენის ატვირთვის მეორე საფეხური"
 
 msgid "(SLD - Style Layer Descriptor 1.0, 1.1)"
@@ -2851,7 +2851,7 @@ msgstr "ატრიბუტები"
 
 #, fuzzy
 #| msgid "Download Metadata"
-msgid "Upload Dataset"
+msgid "Upload Layer"
 msgstr "მეტამონაცემის ჩამოტვირთვა"
 
 #, fuzzy
@@ -2903,7 +2903,7 @@ msgstr "დარწმუნებული ხართ, რომ გსუ�
 
 #, fuzzy
 #| msgid "Upload Layer Step 2"
-msgid "Upload Dataset Step: Set SRS"
+msgid "Upload Layer Step: Set SRS"
 msgstr "ფენის ატვირთვის მეორე საფეხური"
 
 msgid "Provide CRS for "
@@ -3115,7 +3115,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "Upload Layer Step 2"
-msgid "Upload Dataset Step: CSV Field Mapping"
+msgid "Upload Layer Step: CSV Field Mapping"
 msgstr "ფენის ატვირთვის მეორე საფეხური"
 
 msgid "Geospatial Data"
@@ -3156,7 +3156,7 @@ msgstr "ატვირთვის ფორმა"
 
 #, fuzzy
 #| msgid "Upload Layer Step 2"
-msgid "Upload Dataset Step: Time"
+msgid "Upload Layer Step: Time"
 msgstr "ფენის ატვირთვის მეორე საფეხური"
 
 msgid "Inspect data for "

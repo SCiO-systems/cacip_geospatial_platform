@@ -2390,7 +2390,7 @@ msgstr "To działanie to ma wpływ na następujące mapy:"
 msgid "No maps are using this layer"
 msgstr "Brak map korzystających z tej warstwy"
 
-msgid "Upload Datasets"
+msgid "Upload Layer"
 msgstr "Prześlij zbiory danych"
 
 #, python-format
@@ -2444,7 +2444,7 @@ msgstr "BŁĄD"
 msgid "Following items are required:"
 msgstr "Następujące elementy są wymagane:"
 
-msgid "Upload Dataset Metadata"
+msgid "Upload Layer Metadata"
 msgstr "Prześlij metadane zbioru danych"
 
 msgid "(XML - ISO, FGDC, ebRIM, Dublin Core)"
@@ -2500,7 +2500,7 @@ msgstr "Zaktualizuj dostępne style"
 msgid "Return to Layer"
 msgstr "Wróć do warstwy"
 
-msgid "Upload Dataset Style"
+msgid "Upload Layer Style"
 msgstr "Prześlij styl zbioru danych"
 
 msgid "(SLD - Style Layer Descriptor 1.0, 1.1)"
@@ -2518,7 +2518,7 @@ msgstr "Podgląd"
 msgid "Dataset Attributes"
 msgstr "Atrybuty zbioru danych"
 
-msgid "Upload Dataset"
+msgid "Upload Layer"
 msgstr "Prześlij zbiór danych"
 
 msgid "Upload status"
@@ -2558,7 +2558,7 @@ msgstr "Usuń niekompletnie przesłane pliki"
 msgid "Are you sure you want to remove this incomplete upload?"
 msgstr "Czy na pewno chcesz usunąć te niekompletnie przesłane pliki?"
 
-msgid "Upload Dataset Step: Set SRS"
+msgid "Upload Layer Step: Set SRS"
 msgstr "Przesyłanie zbioru danych: Ustaw SRS"
 
 msgid "Provide CRS for "
@@ -2800,7 +2800,7 @@ msgid ""
 "                        "
 msgstr ""
 
-msgid "Upload Dataset Step: CSV Field Mapping"
+msgid "Upload Layer Step: CSV Field Mapping"
 msgstr "Przesyłanie zbioru danych: mapowanie pól CSV"
 
 msgid "Geospatial Data"
@@ -2840,7 +2840,7 @@ msgstr "Wróć do"
 msgid "Upload Form"
 msgstr "Formularz przesyłania"
 
-msgid "Upload Dataset Step: Time"
+msgid "Upload Layer Step: Time"
 msgstr "Przesyłanie warstwy: Czas"
 
 msgid "Inspect data for "

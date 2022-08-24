@@ -2750,7 +2750,7 @@ msgstr "Nem térképeket használja ezt a réteget"
 
 #, fuzzy
 #| msgid "Download Metadata"
-msgid "Upload Datasets"
+msgid "Upload Layers"
 msgstr "Download Metadata"
 
 #, python-format
@@ -2804,7 +2804,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "Upload Layer"
-msgid "Upload Dataset Metadata"
+msgid "Upload Layer Metadata"
 msgstr "Feltöltés réteg"
 
 msgid "(XML - ISO, FGDC, ebRIM, Dublin Core)"
@@ -2865,7 +2865,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "Upload Layer Step 2"
-msgid "Upload Dataset Style"
+msgid "Upload Layer Style"
 msgstr "Feltöltés réteg 2. lépés"
 
 msgid "(SLD - Style Layer Descriptor 1.0, 1.1)"
@@ -2887,7 +2887,7 @@ msgstr "Attribútumok"
 
 #, fuzzy
 #| msgid "Download Metadata"
-msgid "Upload Dataset"
+msgid "Upload Layer"
 msgstr "Download Metadata"
 
 #, fuzzy
@@ -2939,7 +2939,7 @@ msgstr "Biztosan törölni szeretné ezt a feltöltést?"
 
 #, fuzzy
 #| msgid "Upload Layer Step 2"
-msgid "Upload Dataset Step: Set SRS"
+msgid "Upload Layer Step: Set SRS"
 msgstr "Feltöltés réteg 2. lépés"
 
 msgid "Provide CRS for "
@@ -3151,7 +3151,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "Upload Layer Step 2"
-msgid "Upload Dataset Step: CSV Field Mapping"
+msgid "Upload Layer Step: CSV Field Mapping"
 msgstr "Feltöltés réteg 2. lépés"
 
 msgid "Geospatial Data"
@@ -3211,7 +3211,7 @@ msgstr "Feltöltés Form"
 
 #, fuzzy
 #| msgid "Upload Layer Step 2"
-msgid "Upload Dataset Step: Time"
+msgid "Upload Layer Step: Time"
 msgstr "Feltöltés réteg 2. lépés"
 
 msgid "Inspect data for "
