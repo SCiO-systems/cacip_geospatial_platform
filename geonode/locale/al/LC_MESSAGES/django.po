@@ -2273,7 +2273,7 @@ msgstr ""
 msgid "No maps are using this layer"
 msgstr ""
 
-msgid "Upload Datasets"
+msgid "Upload Layers"
 msgstr ""
 
 #, python-format
@@ -2319,7 +2319,7 @@ msgstr ""
 msgid "Following items are required:"
 msgstr ""
 
-msgid "Upload Dataset Metadata"
+msgid "Upload Layer Metadata"
 msgstr ""
 
 msgid "(XML - ISO, FGDC, ebRIM, Dublin Core)"
@@ -2367,7 +2367,7 @@ msgstr ""
 msgid "Return to Layer"
 msgstr ""
 
-msgid "Upload Dataset Style"
+msgid "Upload Layer Style"
 msgstr ""
 
 msgid "(SLD - Style Layer Descriptor 1.0, 1.1)"
@@ -2385,7 +2385,7 @@ msgstr ""
 msgid "Dataset Attributes"
 msgstr ""
 
-msgid "Upload Dataset"
+msgid "Upload Layer"
 msgstr ""
 
 msgid "Upload status"
@@ -2425,7 +2425,7 @@ msgstr ""
 msgid "Are you sure you want to remove this incomplete upload?"
 msgstr ""
 
-msgid "Upload Dataset Step: Set SRS"
+msgid "Upload Layer Step: Set SRS"
 msgstr ""
 
 msgid "Provide CRS for "
@@ -2614,7 +2614,7 @@ msgid ""
 "                        "
 msgstr ""
 
-msgid "Upload Dataset Step: CSV Field Mapping"
+msgid "Upload Layer Step: CSV Field Mapping"
 msgstr ""
 
 msgid "Geospatial Data"
@@ -2652,7 +2652,7 @@ msgstr ""
 msgid "Upload Form"
 msgstr ""
 
-msgid "Upload Dataset Step: Time"
+msgid "Upload Layer Step: Time"
 msgstr ""
 
 msgid "Inspect data for "

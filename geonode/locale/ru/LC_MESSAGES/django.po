@@ -2385,7 +2385,7 @@ msgstr "Карты, использующие данный слой, отсутс
 <<<<<<< Updated upstream
 #, fuzzy
 #| msgid "Download Metadata"
-msgid "Upload Datasets"
+msgid "Upload Layers"
 msgstr "Скачать метаданные"
 =======
 msgid "Upload Datasets"
@@ -2448,7 +2448,7 @@ msgstr "Потребуются следующие наименования:"
 <<<<<<< Updated upstream
 #, fuzzy
 #| msgid "Upload Layer"
-msgid "Upload Dataset Metadata"
+msgid "Upload Layer Metadata"
 msgstr "Загрузить слой"
 =======
 msgid "Upload Dataset Metadata"
@@ -2511,7 +2511,7 @@ msgstr "Вернуться к слою"
 <<<<<<< Updated upstream
 #, fuzzy
 #| msgid "Upload Layer Step 2"
-msgid "Upload Dataset Style"
+msgid "Upload Layer Style"
 msgstr "Загрузка слоя Шаг 2"
 =======
 msgid "Upload Dataset Style"
@@ -2536,7 +2536,7 @@ msgstr "Атрибуты набора данных"
 <<<<<<< Updated upstream
 #, fuzzy
 #| msgid "Download Metadata"
-msgid "Upload Dataset"
+msgid "Upload Layer"
 msgstr "Скачать метаданные"
 =======
 msgid "Upload Dataset"
@@ -2583,7 +2583,7 @@ msgstr "Вы уверены, что хотите удалить незаверш
 <<<<<<< Updated upstream
 #, fuzzy
 #| msgid "Upload Layer Step 2"
-msgid "Upload Dataset Step: Set SRS"
+msgid "Upload Layer Step: Set SRS"
 msgstr "Загрузка слоя Шаг 2"
 =======
 msgid "Upload Dataset Step: Set SRS"
@@ -2866,7 +2866,7 @@ msgstr ""
 <<<<<<< Updated upstream
 #, fuzzy
 #| msgid "Upload Layer Step 2"
-msgid "Upload Dataset Step: CSV Field Mapping"
+msgid "Upload Layer Step: CSV Field Mapping"
 msgstr "Загрузка слоя Шаг 2"
 =======
 msgid "Upload Dataset Step: CSV Field Mapping"
@@ -2914,7 +2914,7 @@ msgstr "Загрузить форму"
 <<<<<<< Updated upstream
 #, fuzzy
 #| msgid "Upload Layer Step 2"
-msgid "Upload Dataset Step: Time"
+msgid "Upload Layer Step: Time"
 msgstr "Загрузка слоя Шаг 2"
 =======
 msgid "Upload Dataset Step: Time"
