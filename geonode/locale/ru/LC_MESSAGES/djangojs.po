@@ -19,196 +19,220 @@
 # Translators:
 # Translators:
 # Translators:
-# Andres Alfonso Lemon Gomez <lemon.andres@gmail.com>, 2014
-# dan, 2015
-# dan, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: GeoNode\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-08 09:03+0300\n"
-"PO-Revision-Date: 2016-08-23 11:58+0000\n"
+"PO-Revision-Date: 2022-07-18 17:40+0500\n"
 "Last-Translator: Julien Collaer <julien.collaer@opengeode.be>\n"
-"Language-Team: Russian (http://www.transifex.com/geonode/geonode/language/"
-"ru/)\n"
-"Language: ru\n"
+"Language-Team: English (http://www.transifex.com/geonode/geonode/language/"
+"en/)\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
-"%100>=11 && n%100<=14)? 2 : 3);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1.1\n"
 
 msgid "STORE_UPDATED"
-msgstr ""
+msgstr "STORE_UPDATED"
 
 #, javascript-format
 msgid "Missing a %s file, which is required"
 msgstr "Отсутствует файл %s, который необходим"
 
 msgid "ESRI Shapefile"
-msgstr "ESRI шейп"
+msgstr "Шейпфайл ESRI"
 
 msgid "ASCII Text File"
-msgstr ""
+msgstr "Текстовый файл ASCII"
 
 msgid "GeoTIFF"
-msgstr ""
+msgstr "GeoTIFF"
 
 msgid "Comma Separated Value"
-msgstr ""
+msgstr "Значение, разделенное запятыми"
 
 msgid "Google Earth KML"
-msgstr "Google Earth KML"
+msgstr "KML в сервисе \"Google Планета Земля\""
 
-#, fuzzy
-#| msgid "Google Earth KML"
 msgid "Google Earth KML with a GroundOverlay"
-msgstr "Google Earth KML"
+msgstr "KML в сервис \"Google Планета Земля\" с GroundOverlay"
 
-#, fuzzy
-#| msgid "Google Earth KML"
 msgid "Google Earth KMZ"
-msgstr "Google Earth KML"
+msgstr "KMZ в сервисе \"Google Планета Земля\""
 
 msgid "GeoJSON"
 msgstr "GeoJSON"
 
 msgid "Zip Archive"
-msgstr ""
+msgstr "Zip-архив"
 
 msgid "ERDAS Imagine"
-msgstr ""
+msgstr "Система ERDAS Imagine"
 
 msgid "National Imagery Transmission Format"
-msgstr ""
+msgstr "Национальный формат передачи изображений"
 
 msgid "Controlled Image Base-1 Meter"
-msgstr ""
+msgstr "База контролируемых изображений - Измеритель 1"
 
 msgid "Controlled Image Base-5 Meter"
-msgstr ""
+msgstr "База контролируемых изображений - Измеритель 1"
 
 msgid "Controlled Image Base-10 Meter"
-msgstr ""
+msgstr "База контролируемых изображений - Измеритель 10"
 
 msgid "CADRG-Global Navigation Chart"
-msgstr ""
+msgstr "CADRG-Глобальная навигационная карта"
 
 msgid "CADRG-Jet Navigation Chart"
-msgstr ""
+msgstr "CADRG-Навигационная карта для реактивной авиации"
 
 msgid "CADRG-Operational Navigation Chart"
-msgstr ""
+msgstr "CADRG-Операционная навигационная карта"
 
 msgid "CADRG-Tactical Pilotage Chart"
-msgstr ""
+msgstr "CADRG-Тактическая полётная карта"
 
 msgid "CADRG-Joint Operations Graphic"
-msgstr ""
+msgstr "CADRG-График совместных действий"
 
 msgid "CADRG-Topographic Line Map 100K"
-msgstr ""
+msgstr "CADRG-Топографическая карта 100К"
 
 msgid "CADRG-Topographic Line Map 50K"
-msgstr ""
+msgstr "CADRG-Топографическая карта 50K"
 
 msgid "JPEG2000"
-msgstr ""
+msgstr "JPEG2000"
 
 msgid "MrSID-Multi-resolution Seamless Image Database"
-msgstr ""
+msgstr "MrSID-База данных бесшовных изображений с несколькими разрешениями"
 
-#, fuzzy
-#| msgid "Metadata Links:"
 msgid "XML Metadata File"
-msgstr "Ссылки на метаданные:"
+msgstr "Файл метаданных XML"
 
 msgid "Style Layer Descriptor"
-msgstr ""
+msgstr "Стилизованный дескриптор слоя"
 
 msgid "JPEG"
-msgstr ""
+msgstr "JPEG"
 
 msgid "PNG"
-msgstr ""
+msgstr "PNG"
 
 msgid "GIF"
-msgstr ""
+msgstr "GIF"
 
-#, fuzzy
-#| msgid "Unexpected Error"
 msgid "Unexpected error!"
-msgstr "Неожиданная ошибка"
+msgstr "Непредвиденная ошибка!"
 
 msgid ""
 " - 400 Bad Request. Server cannot or will not process the request due to "
 "something that is perceived to be a client error (e.g., malformed request "
 "syntax, invalid request message framing, or deceptive request routing)."
 msgstr ""
+" - Ошибка 400, Bad Request (Неверный запрос). Сервер не может или не будет "
+"обрабатывать запрос по причине ошибки со стороны клиента (например, "
+"искаженный синтаксис запроса, неправильное обращение к сообщениям запроса "
+"или маршрутизация ложных запросов)."
 
 msgid ""
 " - 401 Unauthorized. Request was not sent with the proper authentication "
 "credentials."
 msgstr ""
+" - Ошибка 401, Unauthorized (Отказ в доступе). Запрос не был отправлен при "
+"наличии надлежащих учетных данных для аутентификации."
 
 msgid ""
 " - 403 Forbidden. This is generally related to permission rules on your "
 "server. Contact the system administrator for more information regarding this "
 "error message."
 msgstr ""
+" - Ошибка 403, Forbidden (Доступ запрещён). Обычно это связано с правилами "
+"доступа на вашем сервере. Обратитесь к системному администратору, чтобы "
+"получить дополнительную информацию касательно данного сообщения об ошибке."
 
 msgid ""
 " - 404 Not Found. Origin server was unable or unwilling to find the resource "
 "requested."
 msgstr ""
+" - Ошибка 404, Не найдено. Исходный сервер не смог или не пожелал обнаружить "
+"запрашиваемый ресурс."
 
 msgid ""
 " - 405 Method Not Allowed. Origin server is aware of the requested resource, "
 "but the request method used is not supported."
 msgstr ""
+" - Ошибка 405, Method Not Allowed (Метод не поддерживается). Исходный сервер "
+"осведомлен касательно запрашиваемого ресурса, однако используемый метод "
+"запроса не поддерживается."
 
 msgid ""
 " - 406 Not Acceptable. Resource is not available at the origin that adheres "
 "to negotiation headers that were  set prior (e.g. via 'Accept-Charset' and "
 "'Accept-Language' headers)."
 msgstr ""
+" - Ошибка 406, Not Acceptable (Не приемлемо). Ресурс недоступен в источнике, "
+"который придерживается заголовков согласования, которые были установлены "
+"ранее (например, посредством заголовков \"Accept-Charset\" и \"Accept-"
+"Language\")."
 
 msgid ""
 " - 407 Authentication Required. The client did not send the required "
 "authentication with the request."
 msgstr ""
+" - Ошибка 407, Authentication Required (Требуется аутентификация). Клиентом "
+"не были направлены необходимые учетные данные вместе с запросом."
 
 msgid ""
 " - 408 Request Timeout. The origin server did not receive the complete "
 "request in what it considers a reasonable time."
 msgstr ""
+" - Ошибка 408, Request Timeout (Время ожидания запроса истекло). Исходный "
+"сервер не получил полный запрос в течение соответствующего времени."
 
 msgid ""
 " - 409 Conflict. The request did not complete because of a conflict with the "
 "current state of the resource. Typically happens on a PUT request where "
 "multiple clients are attempting to edit the same resource."
 msgstr ""
+" - Ошибка 409, Conflict (Конфликтующий запрос). Запрос не выполнен ввиду "
+"возникновения конфликта в рамках текущего состояния ресурса. Обычно это "
+"происходит при запросе PUT, когда несколько клиентов предпринимают попытку "
+"редактирования одного и того же ресурса."
 
 msgid ""
 " - 410 Gone. The resource requested is permanently missing at the origin."
 msgstr ""
+" - Ошибка 410, Gone (Удалено). Запрашиваемый ресурс отсутствует в источнике."
 
 msgid ""
 " - 411 Length Required. Client did not define the 'Content-Length' of the "
 "request body in the headers and this is required to obtain the resource."
 msgstr ""
+" - Ошибка 411, Length Required (Требуемая длина). Клиент не определил "
+"\"'Content-Length\" тела запроса в заголовках, а это необходимо для "
+"получения ресурса."
 
 msgid ""
 " - 412 Precondition Failed. Server denies the request because the resource "
 "failed to meet the conditions specified by the client."
 msgstr ""
+" - Ошибка 412, Precondition Failed (Предусловие ложно). Сервер отклоняет "
+"запрос, поскольку ресурс не отвечает условиям, указанным клиентом."
 
 msgid ""
 " - 413 Payload Too Large. Refusal from the server to process the request "
 "because the payload sent from the client is larger than the server wished to "
 "accept. Server has the optional to close the connection."
 msgstr ""
+" - Ошибка 413, Payload Too Large (Слишком большой размер запроса). Отказ "
+"сервера в обработке запроса поскольку полезные данные, отправленные "
+"клиентом, превышают размер, допустимый сервером. Сервер может прервать "
+"соединение."
 
 msgid ""
 " - 414 URI Too Long. Refusal from the server that the URI was too long to be "
@@ -216,6 +240,10 @@ msgid ""
 "unusually long URI after a POST, this could be seen as a security risk and a "
 "414 gets generated."
 msgstr ""
+" - Ошибка 414, URI Too Long (Слишком длинный URI). Отказ сервера по причине "
+"того, что URI является слишком длинным для обработки. Например, если клиент "
+"пытается выполнить запрос GET с необычно длинным URI после POST, это может "
+"быть расценено как угроза безопасности и возникнет ошибка 414."
 
 msgid ""
 " - 415 Unsupported Media Type. Refusal from the server to process the format "
@@ -223,22 +251,35 @@ msgid ""
 "look at the 'Content-Type' or 'Content-Encoding' headers sent in the "
 "client’s request."
 msgstr ""
+" - Ошибка 415, Unsupported Media Type (Неподдерживаемый тип данных). Отказ "
+"сервера в обработке формата текущих полезных данных. Одним из способов "
+"определить и исправить данную проблему является просмотр заголовков "
+"\"Content-Type\" и \"Content-Encoding\", отправленных в запросе клиента."
 
 msgid ""
 " - 417 Expectation Failed. Failure of server to meet the requirements "
 "specified in the 'Expect' header of the client’s request."
 msgstr ""
+" - Ошибка 417, Expectation Failed (Ожидание не удалось). Неспособность "
+"сервера соответствовать требованиям, указанным в заголовке \"Expect\" "
+"запроса клиента."
 
 msgid ""
 " - 429 Too Many Requests. Client has sent too many requests in the specified "
 "amount of time according to the server."
 msgstr ""
+" - Ошибка 429, Too Many Requests (Слишком много запросов). Клиент отправил "
+"слишком много запросов за указанный промежуток времени согласно серверу."
 
 msgid ""
 " - 499 Client Close Request. Nginx specific response code to indicate when "
 "the connection has been closed by the client while the server is still "
 "processing its request, making server unable to send a status code back."
 msgstr ""
+" - Ошибка 499, Client Close Request (Клиент закрыл соединение). Специальный "
+"код ответа Nginx, который указывает на  то, что соединение было закрыто "
+"клиентом, в то время как сервер продолжает обрабатывать запрос, по причине "
+"чего сервер не может отправить идентификатор состояния обратно."
 
 msgid ""
 " - 500 Internal Server Error. This error indicates that the server has "
@@ -246,6 +287,10 @@ msgid ""
 "request cannot be fulfilled due to the application being configured "
 "incorrectly on the server."
 msgstr ""
+" - Ошибка 500, Internal Server Error (Внутренняя ошибка сервера). Данная "
+"ошибка указывает на то, что сервер столкнулся с непредвиденной ситуацией. "
+"Это часто происходит, когда запрос приложения не может быть выполнен ввиду "
+"несоответствия конфигурации приложения на сервере."
 
 msgid ""
 " - 501 Not Implemented. This error indicates that the HTTP method sent by "
@@ -253,12 +298,19 @@ msgid ""
 "server being out of date. It is a very rare error and generally requires "
 "that the web server be updated."
 msgstr ""
+" - Ошибка 501, Not Implemented (Не реализовано). Данная ошибка указывает на "
+"то, что метод HTTP, отправленный клиентом, не поддерживается сервером. Чаще "
+"всего это связано с тем, что сервер устарел. Данная ошибка является весьма "
+"редкой, и обычно требуется обновление веб-сервера."
 
 msgid ""
 " - 502 Bad Gateway. This error is usually due to improperly configured proxy "
 "servers. The first step in resolving the issue is to clear the client's "
 "cache."
 msgstr ""
+" - Ошибка 502, Bad Gateway (Ошибочный шлюз). Данная ошибка обычно возникает "
+"ввиду неправильной настройки прокси-серверов. Первый этап в решении проблемы "
+"предусматривает очистку кэша клиента."
 
 msgid ""
 " - 503 Service Unavailable. This error occurs when the server is unable to "
@@ -266,12 +318,21 @@ msgid ""
 "temporarily closed for maintenance. The error indicates that the server will "
 "only temporarily be down."
 msgstr ""
+" - Ошибка 503, Service Unavailable (Сервис не доступен). Данная ошибка "
+"возникает, когда сервер не способен обрабатывать запросы по причине "
+"временной перегрузки или ввиду того, что сервер временно закрыт на "
+"техническое обслуживание. Ошибка указывает на то, что сервер будет "
+"недоступен лишь в течение определенного времени."
 
 msgid ""
 " - 504 Gateway Timeout. GeoNode lost the connection with GeoServer or DB due "
 "to a connection timeout. Consider using the management commands to import "
 "data!"
 msgstr ""
+" - Ошибка 504, Gateway Timeout (Шлюз не отвечает). GeoNode потерял "
+"соединение с GeoServer или DB ввиду завершения времени ожидания подключения. "
+"Следует рассмотреть возможность использования команд управления в целях "
+"импорта данных!"
 
 msgid ""
 " - 505 HTTP Version Not Supported. This error occurs when the server refuses "
@@ -280,11 +341,19 @@ msgid ""
 "client computer; for example, if an invalid version number has been "
 "specified."
 msgstr ""
+" - Ошибка 505, HTTP Version Not Supported (Версия HTTP не поддерживается). "
+"Данная ошибка возникает, когда сервер отказывается поддерживать протокол "
+"HTTP, указанный компьютером клиента. Это может быть вызвано тем, что "
+"компьютер клиента неверно указывает протокол; например, если был указан "
+"недопустимый номер версии."
 
 msgid ""
 " - 506 Variant Also Negotiates. This error indicates that the server is not "
 "properly configured. Contact the system administrator to resolve this issue."
 msgstr ""
+" - Ошибка 506, Variant Also Negotiates (Вариант тоже проводит согласование). "
+"Данная ошибка указывает на то, что сервер неправильно настроен. Для того, "
+"чтобы решить данную проблему, следует обратиться к системному администратору."
 
 msgid ""
 " - 507 Insufficient Storage. This error indicates that the server is out of "
@@ -295,6 +364,14 @@ msgid ""
 "expanded, or it may simply need to be restarted. Contact the system "
 "administrator for more information regarding this error message."
 msgstr ""
+" - Ошибка 507, Insufficient Storage (﻿Недостаточно места для обработки "
+"текущего запроса). Данная ошибка указывает на то, что серверу не хватает "
+"свободной памяти. Чаще всего это происходит, когда запрашиваемое приложение "
+"не может выделить необходимые системные ресурсы для запуска. Для того, чтобы "
+"решить данную проблему, возможно, будет необходимо очистить жесткий диск "
+"сервера от любых ненужных документов, чтобы освободить место, расширить "
+"память или просто перезапустить его. Чтобы получить дополнительную "
+"информацию об этой ошибке, обратитесь к системному администратору."
 
 msgid ""
 " - 509 Bandwidth Limit Exceeded. This error occurs when the bandwidth limit "
@@ -302,102 +379,105 @@ msgid ""
 "issue is to wait until the limit is reset in the following cycle. Consult "
 "the system administrator for information about acquiring more bandwidth."
 msgstr ""
+" - Ошибка 509, Bandwidth Limit Exceeded (Исчерпана пропускная ширина "
+"канала). Данная ошибка возникает, когда будет достигнут предельный "
+"показатель пропускной ширины канала, заданный системным администратором. "
+"Единственным решением данной проблемы является ожидание сброса предельного "
+"показателя в следующем цикле. Информацию об увеличении пропускной ширины "
+"канала предоставит системный администратор."
 
 msgid ""
 " - 510 Not Extended. This error occurs when an extension attached to the "
 "HTTP request is not supported by the web server. To resolve the issue, you "
 "may need to update the server."
 msgstr ""
+" - Ошибка 510, Not Extended (Не расширено). Данная ошибка возникает, когда "
+"расширение, закрепленное за HTTP-запросом, не поддерживается веб-сервером. "
+"Для того, чтобы решить проблему, может потребоваться обновление сервера."
 
-#, fuzzy
-#| msgid "Unknown Map"
 msgid "Unknwon"
-msgstr "Неизвестная карта"
+msgstr "<br>Не известно"
 
 msgid ""
 " Error Code. Contact the system administrator for more information regarding "
 "this error message."
 msgstr ""
+" Код ошибки. Обратитесь к системному администратору за дополнительной "
+"информацией касательно данного кода ошибки."
 
 msgid "Additional info: "
-msgstr ""
+msgstr "Дополнительная информация: "
 
 msgid "Finalizing"
-msgstr ""
+msgstr "Завершение"
 
 msgid "Unexpected Error"
-msgstr "Неожиданная ошибка"
+msgstr "Непредвиденная ошибка"
 
 msgid "Your "
-msgstr ""
+msgstr "Ваш (Ваша) "
 
-#, fuzzy
-#| msgid "Layer Info"
 msgid " Info"
-msgstr "Информация слоя"
+msgstr " Информация"
 
 msgid "Edit Metadata"
-msgstr "Редактирование метаданных"
+msgstr "Редактировать мета-данные"
 
-#, fuzzy
-#| msgid "Edit Metadata"
 msgid "Upload Metadata"
-msgstr "Редактирование метаданных"
+msgstr "Загрузить мета-данные"
 
 msgid "Upload SLD"
-msgstr ""
+msgstr "Загрузить SLD"
 
 msgid "Manage Styles"
 msgstr "Управление стилями"
 
 msgid "Please wait until GeoNode finished configuring it!"
-msgstr ""
+msgstr "Подождите, пока GeoNode закончит настройку!"
 
 msgid "The column %1 was renamed to %2 <br/>"
 msgstr "Колонка %1 была переименована в %2 <br/>"
 
 msgid "Performing Final GeoServer Config Step"
-msgstr "Шаг выполнения окончательной настройки GeoServer"
+msgstr "Выполнение заключительного этапа настройки GeoServer"
 
 msgid "You need to specify more information in order to complete your upload"
-msgstr ""
-"Вы должны указать дополнительную информацию для того, чтобы завершить свою "
-"загрузку"
+msgstr "Необходимо указать дополнительную информацию, чтобы завершить загрузку"
 
 msgid "Files are ready to be ingested!"
-msgstr ""
+msgstr "Файлы готовы к копированию!"
 
 msgid "A temporal dimension may be added to this Layer."
-msgstr ""
+msgstr "К данному Уровню может быть добавлено временное измерение."
 
 msgid "Performing GeoServer Config Step"
-msgstr "Шаг выполнения настройки GeoServer"
+msgstr "Выполнение этапа настройки GeoServer"
 
 msgid ""
 "<br>Please check your network connection. In case of Layer Upload make sure "
 "GeoServer is running and accepting connections."
 msgstr ""
+"<br>Проверьте подключение к сети. В случае загрузки Уровня убедитесь, что "
+"GeoServer работает и принимает соединения."
 
 msgid "<br>"
-msgstr ""
+msgstr "<br>"
 
 msgid "<br>Bad request or URL not found."
-msgstr ""
+msgstr "<br>Неверный запрос или URL-адрес не найден."
 
-#, fuzzy
-#| msgid "Unknown Map"
 msgid "<br>Unknown."
-msgstr "Неизвестная карта"
+msgstr "<br>Не известно."
 
 msgid "Layer files uploaded, configuring in GeoServer"
-msgstr "Файлы слоёв загружены, настройка в GeoServer"
+msgstr "Файлы уровня загружены, настройка в GeoServer"
 
 msgid "Remove"
 msgstr "Удалить"
 
 #, javascript-format
 msgid "The file %s is an unsupported file type, please select another file."
-msgstr "Для файла %s не поддерживается тип, пожалуйста, выберите другой файл."
+msgstr "Файл %s не поддерживается, выберите другой файл."
 
 msgid ""
 "You are trying to upload an incomplete set of files or not all mandatory "
@@ -405,213 +485,212 @@ msgid ""
 "\n"
 "Please check for errors in the form!"
 msgstr ""
+"Вы пытаетесь загрузить неполный комплект файлов либо были проверены не все "
+"обязательные параметры\n"
+"\n"
+"Проверьте наличие ошибок в форме!"
 
 #, javascript-format
 msgid "Available %s"
-msgstr "Available %s"
+msgstr "Доступен %s"
 
 #, javascript-format
 msgid ""
 "This is the list of available %s. You may choose some by selecting them in "
 "the box below and then clicking the \"Choose\" arrow between the two boxes."
 msgstr ""
-"This is the list of available %s. You may choose some by selecting them in "
-"the box below and then clicking the \"Choose\" arrow between the two boxes."
+"Это список доступных %s. Вы можете выбрать некоторые из них, выбрав их в "
+"поле ниже, а затем нажав на стрелку \"Выбрать\" между двумя полями."
 
 #, javascript-format
 msgid "Type into this box to filter down the list of available %s."
-msgstr "Type into this box to filter down the list of available %s."
+msgstr "Введите данные в это поле, чтобы отфильтровать список доступных %s."
 
 msgid "Filter"
-msgstr "Filter"
+msgstr "Фильтр"
 
 msgid "Choose all"
-msgstr "Choose all"
+msgstr "Выбрать все"
 
 #, javascript-format
 msgid "Click to choose all %s at once."
-msgstr "Click to choose all %s at once."
+msgstr "Нажмите, чтобы выбрать все %s сразу."
 
 msgid "Choose"
-msgstr "Choose"
+msgstr "Выбрать"
 
 #, javascript-format
 msgid "Chosen %s"
-msgstr "Chosen %s"
+msgstr "Выбранные %s"
 
 #, javascript-format
 msgid ""
 "This is the list of chosen %s. You may remove some by selecting them in the "
 "box below and then clicking the \"Remove\" arrow between the two boxes."
 msgstr ""
-"This is the list of chosen %s. You may remove some by selecting them in the "
-"box below and then clicking the \"Remove\" arrow between the two boxes."
+"Это список выбранных %s. Вы можете удалить некоторые из них, выбрав их в "
+"поле ниже, а затем нажав на стрелку \"Удалить\" между двумя полями."
 
 msgid "Remove all"
-msgstr "Remove all"
+msgstr "Удалить все"
 
 #, javascript-format
 msgid "Click to remove all chosen %s at once."
-msgstr "Click to remove all chosen %s at once."
+msgstr "Нажмите, чтобы удалить сразу все выбранные %s."
 
 msgid "%(sel)s of %(cnt)s selected"
 msgid_plural "%(sel)s of %(cnt)s selected"
 msgstr[0] "94d7ef36d54e81afde607d8fd121772b_pl_0"
 msgstr[1] "94d7ef36d54e81afde607d8fd121772b_pl_1"
-msgstr[2] "94d7ef36d54e81afde607d8fd121772b_pl_2"
-msgstr[3] "94d7ef36d54e81afde607d8fd121772b_pl_3"
 
 msgid ""
 "You have unsaved changes on individual editable fields. If you run an "
 "action, your unsaved changes will be lost."
 msgstr ""
-"You have unsaved changes on individual editable fields. If you run an "
-"action, your unsaved changes will be lost."
+"У вас имеются несохраненные изменения в отдельных редактируемых полях. Если "
+"вы начнете выполнять действие, ваши несохраненные изменения будут утеряны."
 
 msgid ""
 "You have selected an action, but you haven't saved your changes to "
 "individual fields yet. Please click OK to save. You'll need to re-run the "
 "action."
 msgstr ""
-"You have selected an action, but you haven't saved your changes to "
-"individual fields yet. Please click OK to save. You'll need to re-run the "
-"action."
+"Вы выбрали действие, но не сохранили изменения в отдельных полях. Нажмите ОК "
+"для того, чтобы сохранить. Вам потребуется повторить действие."
 
 msgid ""
 "You have selected an action, and you haven't made any changes on individual "
 "fields. You're probably looking for the Go button rather than the Save "
 "button."
 msgstr ""
-"You have selected an action, and you haven't made any changes on individual "
-"fields. You're probably looking for the Go button rather than the Save "
-"button."
+"Вы выбрали действие и не внесли изменения в отдельные поля. Вероятно, вы в "
+"поиске кнопки \"Go\" (Перейти), а не кнопки \"Save\" (Сохранить)."
 
 msgid "'"
-msgstr ""
+msgstr "'"
 
 msgid "-1"
-msgstr ""
+msgstr "-1"
 
 msgid "trailingComments"
-msgstr ""
+msgstr "trailingComments"
 
 msgid "leadingComments"
-msgstr ""
+msgstr "leadingComments"
 
-#, fuzzy
-#| msgid "Enter comments here."
 msgid "innerComments"
-msgstr "Вставить комментарии здесь."
+msgstr "innerComments"
 
 msgid "Multiselect"
-msgstr ""
+msgstr "Multiselect"
 
-#, fuzzy
-#| msgid "Select"
 msgid "SelectList"
-msgstr "Выбрать"
+msgstr "SelectList"
 
 msgid "show:"
-msgstr ""
+msgstr "показать:"
 
 msgid "DraftEditor/root"
-msgstr ""
+msgstr "DraftEditor/root"
 
 msgid "DraftEditor/editorContainer"
-msgstr ""
+msgstr "DraftEditor/editorContainer"
 
 msgid "-"
-msgstr ""
+msgstr "-"
 
 msgid "uirevision"
-msgstr ""
+msgstr "uirevision"
 
 msgid "bgcolor"
-msgstr ""
+msgstr "bgcolor"
 
 msgid "bordercolor"
-msgstr ""
+msgstr "bordercolor"
 
 msgid "borderwidth"
-msgstr ""
+msgstr "borderwidth"
 
 msgid "orientation"
-msgstr ""
+msgstr "ориентация"
 
 msgid "traceorder"
-msgstr ""
+msgstr "traceorder"
 
 msgid "tracegroupgap"
-msgstr ""
+msgstr "tracegroupgap"
 
 msgid "itemsizing"
-msgstr ""
+msgstr "itemsizing"
 
 msgid "itemclick"
-msgstr ""
+msgstr "itemclick"
 
 msgid "itemdoubleclick"
-msgstr ""
+msgstr "itemdoubleclick"
 
 msgid "x"
-msgstr ""
+msgstr "х"
 
 msgid "xanchor"
-msgstr ""
+msgstr "xanchor"
 
 msgid "y"
-msgstr ""
+msgstr "y"
 
 msgid "yanchor"
-msgstr ""
+msgstr "yanchor"
 
 msgid "valign"
-msgstr ""
+msgstr "valign"
 
 msgid "title.text"
-msgstr ""
+msgstr "title.text"
 
 msgid "title.side"
-msgstr ""
+msgstr "title.side"
 
 msgid "visible"
-msgstr ""
+msgstr "видимый"
 
 msgid "thickness"
-msgstr ""
+msgstr "толщина"
 
 msgid "autorange"
-msgstr ""
+msgstr "autorange"
 
 msgid "range"
-msgstr ""
+msgstr "range"
 
 msgid "bingroup"
-msgstr ""
+msgstr "bingroup"
 
 msgid "Print configuration broken ("
-msgstr ""
+msgstr "Конфигурация печати нарушена ("
 
 msgid "Print configuration not available ("
-msgstr ""
+msgstr "Конфигурация печати не доступна ("
 
 msgid "go"
-msgstr ""
+msgstr "перейти"
 
 msgid "goBack"
-msgstr ""
+msgstr "goBack"
 
 msgid "goForward"
-msgstr ""
+msgstr "goForward"
 
 msgid "Abort"
-msgstr ""
+msgstr "Прервать"
 
 msgid "As Sibling"
-msgstr ""
+msgstr "As Sibling"
 
 msgid "As child"
-msgstr ""
+msgstr "As child"
+
+#~ msgid " - "
+#~ msgstr " - "
 
 #, fuzzy
 #~| msgid "Now"
@@ -619,358 +698,523 @@ msgstr ""
 #~ msgstr "Now"
 
 #~ msgid "Enter your text here ..."
-#~ msgstr "Введите Ваш текст здесь ..."
+#~ msgstr "Enter your text here ..."
 
 #~ msgid "Enter your region here ..."
-#~ msgstr "Введите свой регион здесь ..."
-
-#~ msgid "Your layer was successfully uploaded"
-#~ msgstr "Ваш слой успешно загружен"
-
-#~ msgid ""
-#~ "You need to specify more information in order to complete your upload."
-#~ msgstr ""
-#~ "Вы должны указать дополнительную информацию для того, чтобы завершить "
-#~ "свою загрузку."
-
-#~ msgid "You can continue configuring your layer."
-#~ msgstr "Вы можете продолжить настройку вашего слоя."
+#~ msgstr "Enter your region here ..."
 
 #~ msgid "Cancel"
-#~ msgstr "Отменить"
+#~ msgstr "Cancel"
 
 #~ msgid "Save as Copy"
-#~ msgstr "Сохранить как копию"
+#~ msgstr "Save as Copy"
 
 #~ msgid "About this Map"
-#~ msgstr "Об этой карте"
+#~ msgstr "About this Map"
 
 #~ msgid "Abstract"
-#~ msgstr "Аннотация"
+#~ msgstr "Abstract"
 
 #~ msgid "Save"
-#~ msgstr "Сохранить"
+#~ msgstr "Save"
 
 #~ msgid "Title"
-#~ msgstr "Заголовок"
+#~ msgstr "Title"
 
 #~ msgid "Connection Error"
-#~ msgstr "Ошибка соединения"
+#~ msgstr "Connection Error"
 
 #~ msgid "The server returned an error"
-#~ msgstr "Сервер вернул ошибку"
+#~ msgstr "The server returned an error"
 
 #~ msgid "Details..."
-#~ msgstr "Подробности…"
+#~ msgstr "Details..."
 
 #~ msgid "Add Layers"
-#~ msgstr "Добавить слои"
+#~ msgstr "Add Layers"
+
+#~ msgid "Add ArcGIS REST Server"
+#~ msgstr "Add ArcGIS REST Server"
+
+#~ msgid "Link"
+#~ msgstr "Link"
 
 #~ msgid "Area"
-#~ msgstr "Область"
+#~ msgstr "Area"
 
 #~ msgid "Background"
-#~ msgstr "Фон"
+#~ msgstr "Background"
 
 #~ msgid "Done"
-#~ msgstr "Выполнено"
+#~ msgstr "Done"
 
 #~ msgid "Available Layers"
-#~ msgstr "Доступные слои"
+#~ msgstr "Available Layers"
+
+#~ msgid "Add feeds"
+#~ msgstr "Add feeds"
+
+#~ msgid "Flickr"
+#~ msgstr "Flickr"
+
+#~ msgid "Google Earth"
+#~ msgstr "Google Earth"
+
+#~ msgid ""
+#~ "<p>Your map is ready to be published to the web! </p><p> Simply copy the "
+#~ "following HTML to embed the map in your website: </p>"
+#~ msgstr ""
+#~ "<p>Your map is ready to be published to the web! </p><p> Simply copy the "
+#~ "following HTML to embed the map in your website: </p>"
 
 #~ msgid "Height"
-#~ msgstr "Высота"
+#~ msgstr "Height"
+
+#~ msgid "Help"
+#~ msgstr "Help"
 
 #~ msgid "Get Feature Info"
-#~ msgstr "Получить информацию по объекту"
+#~ msgstr "Get Feature Info"
+
+#~ msgid "About"
+#~ msgstr "About"
+
+#~ msgid "About us"
+#~ msgstr "About us"
 
 #~ msgid "Large"
-#~ msgstr "Большой"
+#~ msgstr "Large"
 
 #~ msgid "or add a new server."
-#~ msgstr "или добавить новый сервер."
+#~ msgstr "or add a new server."
 
 #~ msgid "Map Layers"
-#~ msgstr "Слои карты"
+#~ msgstr "Map Layers"
+
+#~ msgid "Upload your own data"
+#~ msgstr "Upload your own data"
 
 #~ msgid "View available data from:"
-#~ msgstr "Просмотреть доступные данные из:"
+#~ msgstr "View available data from:"
 
 #~ msgid "Data"
-#~ msgstr "Данные"
+#~ msgstr "Data"
 
 #~ msgid "Layers"
-#~ msgstr "Слои"
+#~ msgstr "Layers"
 
 #~ msgid "Legend"
-#~ msgstr "Легенда"
+#~ msgstr "Legend"
 
 #~ msgid "Length"
-#~ msgstr "Длина"
+#~ msgstr "Length"
 
 #~ msgid "Loading Map..."
-#~ msgstr "Загрузка карты…"
+#~ msgstr "Loading Map..."
 
 #~ msgid "Map Size"
-#~ msgstr "Размер карты"
+#~ msgstr "Map Size"
 
 #~ msgid "Measure"
-#~ msgstr "Единица измерения"
+#~ msgstr "Measure"
+
+#~ msgid "Warning"
+#~ msgstr "Warning"
+
+#~ msgid ""
+#~ "You now have %n layers in your map.  With more than %max layers you may "
+#~ "experience problems with layer ordering, info balloon display, and "
+#~ "general performance. "
+#~ msgstr ""
+#~ "You now have %n layers in your map.  With more than %max layers you may "
+#~ "experience problems with layer ordering, info balloon display, and "
+#~ "general performance. "
 
 #~ msgid "Contact"
-#~ msgstr "Контакт"
+#~ msgstr "Contact"
 
 #~ msgid "Permalink"
-#~ msgstr "Ссылка"
+#~ msgstr "Permalink"
+
+#~ msgid "Copy"
+#~ msgstr "Copy"
+
+#~ msgid "About this Map View"
+#~ msgstr "About this Map View"
+
+#~ msgid "Abstract (brief description)"
+#~ msgstr "Abstract (brief description)"
+
+#~ msgid "Introduction (tell visitors more about your map view)"
+#~ msgstr "Introduction (tell visitors more about your map view)"
+
+#~ msgid "UserUrl"
+#~ msgstr "UserUrl"
 
 #~ msgid "Mini"
-#~ msgstr "Мини"
+#~ msgstr "Mini"
+
+#~ msgid "Add Category"
+#~ msgstr "Add Category"
+
+#~ msgid " Add a new category to the layer tree"
+#~ msgstr " Add a new category to the layer tree"
+
+#~ msgid " Rename Category"
+#~ msgstr " Rename Category"
+
+#~ msgid " Rename this category"
+#~ msgstr " Rename this category"
+
+#~ msgid " Remove Category"
+#~ msgstr " Remove Category"
+
+#~ msgid " Remove this category and layers"
+#~ msgstr " Remove this category and layers"
 
 #~ msgid "Pan Map"
-#~ msgstr "Сместить карту"
+#~ msgstr "Pan Map"
 
 #~ msgid "Zoom to Next Extent"
-#~ msgstr "Масштабировать к следующей области"
+#~ msgstr "Zoom to Next Extent"
 
 #~ msgid "Zoom to Previous Extent"
-#~ msgstr "Масштабировать к предыдущей области"
+#~ msgstr "Zoom to Previous Extent"
 
 #~ msgid "This map has not yet been saved."
-#~ msgstr "Эта карта еще не сохранена."
+#~ msgstr "This map has not yet been saved."
 
 #~ msgid "Premium"
-#~ msgstr "Премиум"
+#~ msgstr "Premium"
 
 #~ msgid "Print Map"
-#~ msgstr "Печать карты"
+#~ msgstr "Print Map"
 
 #~ msgid "Print Preview"
-#~ msgstr "Предварительный просмотр печати"
+#~ msgstr "Print Preview"
 
 #~ msgid "Properties"
-#~ msgstr "Свойства"
+#~ msgstr "Properties"
 
 #~ msgid "Publish Map"
-#~ msgstr "Опубликовать карту"
+#~ msgstr "Publish Map"
 
 #~ msgid "Remove Layer"
-#~ msgstr "Удалить слой"
+#~ msgstr "Remove Layer"
 
 #~ msgid "Sorry, your map could not be saved."
-#~ msgstr "Извините, Ваша карта не может быть сохранена"
+#~ msgstr "Sorry, your map could not be saved."
 
 #~ msgid "Error While Saving"
-#~ msgstr "Ошибка при сохранении"
+#~ msgstr "Error While Saving"
 
 #~ msgid "Save Map"
-#~ msgstr "Сохранить карту"
+#~ msgstr "Save Map"
 
 #~ msgid "You must be logged in to save this map."
-#~ msgstr "Вам необходимо войти в систему, чтобы сохранить карту."
+#~ msgstr "You must be logged in to save this map."
 
 #~ msgid "Small"
-#~ msgstr "Маленький"
+#~ msgstr "Small"
+
+#~ msgid " Share Layer"
+#~ msgstr " Share Layer"
 
 #~ msgid ""
 #~ "Error contacting server.\n"
 #~ " Please check the url and try again."
 #~ msgstr ""
-#~ "Ошибка при подключении к серверу.\n"
-#~ "Пожалуйста, проверьте ссылку и повторите снова."
+#~ "Error contacting server.\n"
+#~ " Please check the url and try again."
 
 #~ msgid "Layer Properties"
-#~ msgstr "Свойства слоя"
+#~ msgstr "Layer Properties"
 
 #~ msgid "Change layer format and style"
-#~ msgstr "Изменить формат и стиль слоя"
+#~ msgstr "Change layer format and style"
 
 #~ msgid "Edit Styles"
-#~ msgstr "Редактировать стили"
+#~ msgstr "Edit Styles"
 
 #~ msgid "Edit layer styles"
-#~ msgstr "Редактировать стили слоя"
+#~ msgstr "Edit layer styles"
 
 #~ msgid "Switch to Google Earth 3D Viewer"
-#~ msgstr "Переключить на просмотр в Google Earth 3D"
+#~ msgstr "Switch to Google Earth 3D Viewer"
 
 #~ msgid ""
 #~ "The map that you are trying to load does not exist.  Creating a new map "
 #~ "instead."
 #~ msgstr ""
-#~ "Карта, которую Вы пытаетесь загрузить не существует. Создайте вместо неё "
-#~ "новую карту."
+#~ "The map that you are trying to load does not exist.  Creating a new map "
+#~ "instead."
+
+#~ msgid "Unsupported Layers"
+#~ msgstr "Unsupported Layers"
+
+#~ msgid "The following layers cannot be printed:"
+#~ msgstr "The following layers cannot be printed:"
 
 #~ msgid "Width"
-#~ msgstr "Ширина"
+#~ msgstr "Width"
 
 #~ msgid "Zoom In"
-#~ msgstr "Увеличить масштаб"
+#~ msgstr "Zoom In"
 
 #~ msgid "Zoom Out"
-#~ msgstr "Уменьшить масштаб"
+#~ msgstr "Zoom Out"
 
 #~ msgid "Zoom level"
-#~ msgstr "Уровень масштаба"
+#~ msgstr "Zoom level"
 
 #~ msgid "Zoom Level"
-#~ msgstr "Уровень масштаба"
+#~ msgstr "Zoom Level"
 
 #~ msgid "Zoom to Layer Extent"
-#~ msgstr "Показать весь слой"
+#~ msgstr "Zoom to Layer Extent"
 
 #~ msgid "Zoom to Visible Extent"
-#~ msgstr "Показать всю карту"
+#~ msgstr "Zoom to Visible Extent"
+
+#~ msgid "Picasa"
+#~ msgstr "Picasa"
+
+#~ msgid "YouTube"
+#~ msgstr "YouTube"
+
+#~ msgid "Harvard Geospatial Library"
+#~ msgstr "Harvard Geospatial Library"
+
+#~ msgid "Upload Layer"
+#~ msgstr "Upload Layer"
+
+#~ msgid "Create Layer"
+#~ msgstr "Create Layer"
+
+#~ msgid "Rectify Layer"
+#~ msgstr "Rectify Layer"
+
+#~ msgid "Submit a Map Service"
+#~ msgstr "Submit a Map Service"
+
+#~ msgid "External Data"
+#~ msgstr "External Data"
+
+#~ msgid "If you leave this page, unsaved changes will be lost."
+#~ msgstr "If you leave this page, unsaved changes will be lost."
+
+#~ msgid "Center for Geographic Analysis"
+#~ msgstr "Center for Geographic Analysis"
+
+#~ msgid "Bigdata and AMAP Innovation Team"
+#~ msgstr "Bigdata and AMAP Innovation Team"
 
 #~ msgid "Zoom Level {zoom}"
-#~ msgstr "Масштаб {zoom}"
+#~ msgstr "Zoom Level {zoom}"
 
 #~ msgid "Create Map"
-#~ msgstr "Создать карту"
+#~ msgstr "Create Map"
 
 #~ msgid "Export Map"
-#~ msgstr "Опубликовать карту"
+#~ msgstr "Export Map"
 
 #~ msgid "Map"
-#~ msgstr "Карта"
+#~ msgstr "Map"
 
 #~ msgid "View this Map"
-#~ msgstr "Просмотр этой карты"
+#~ msgstr "View this Map"
 
 #~ msgid "Open Map"
-#~ msgstr "Открыть карту"
+#~ msgstr "Open Map"
 
 #~ msgid "Name"
-#~ msgstr "Имя"
+#~ msgstr "Name"
 
 #~ msgid "Queryable"
-#~ msgstr "Запрашиваемый"
+#~ msgstr "Queryable"
 
 #~ msgid "No background"
-#~ msgstr "Нет фона"
+#~ msgstr "No background"
 
 #~ msgid ""
 #~ "Your map is ready to be published to the web!  Simply copy the following "
 #~ "HTML to embed the map in your website:"
 #~ msgstr ""
-#~ "Ваша карта готова для публикации в сети! Просто скопируйте следующий HTML-"
-#~ "код для того, чтобы встроить карту в страницу Вашего веб-сайта:"
+#~ "Your map is ready to be published to the web!  Simply copy the following "
+#~ "HTML to embed the map in your website:"
 
 #~ msgid "Abstract:"
-#~ msgstr "Аннотация:"
+#~ msgstr "Abstract:"
 
 #~ msgid "No attribution information is provided for this layer."
-#~ msgstr "У этого слоя нет атрибутивной информации."
+#~ msgstr "No attribution information is provided for this layer."
 
 #~ msgid "Provided by:"
-#~ msgstr "Предоставлена:"
+#~ msgstr "Provided by:"
 
 #~ msgid "Download:"
-#~ msgstr "Скачать:"
+#~ msgstr "Download:"
 
 #~ msgid "No keywords are listed for this layer."
-#~ msgstr "Для этого слоя нет списка ключевых слов."
+#~ msgstr "No keywords are listed for this layer."
 
 #~ msgid "Keywords:"
-#~ msgstr "Ключевые слова:"
+#~ msgstr "Keywords:"
 
 #~ msgid "No metadata URLs are defined for this layer."
-#~ msgstr "Ссылки (URL's) на метаданных не определены для этого слоя."
+#~ msgstr "No metadata URLs are defined for this layer."
+
+#~ msgid "Metadata Links:"
+#~ msgstr "Metadata Links:"
 
 #~ msgid "Paper size:"
-#~ msgstr "Размер документа:"
+#~ msgstr "Paper size:"
 
 #~ msgid "Resolution:"
-#~ msgstr "Разрешение:"
+#~ msgstr "Resolution:"
 
 #~ msgid "Print"
-#~ msgstr "Печать"
+#~ msgstr "Print"
 
 #~ msgid "Enter map title here."
-#~ msgstr "Вставить название карты здесь."
+#~ msgstr "Enter map title here."
 
 #~ msgid "Include legend?"
-#~ msgstr "Включить легенду?"
+#~ msgstr "Include legend?"
 
 #~ msgid "Creating PDF..."
-#~ msgstr "Создать PDF…"
+#~ msgstr "Creating PDF..."
 
 #~ msgid "Last Modified"
-#~ msgstr "Последний измененный"
+#~ msgstr "Last Modified"
 
 #~ msgid "Prev"
-#~ msgstr "Предыдущий"
+#~ msgstr "Prev"
 
 #~ msgid "Next"
-#~ msgstr "Следующий"
+#~ msgstr "Next"
 
 #~ msgid "of"
-#~ msgstr "из"
+#~ msgstr "of"
 
 #~ msgid "Your search did not match any items."
-#~ msgstr "Ничего не найдено по Вашему запросу."
+#~ msgstr "Your search did not match any items."
 
 #~ msgid "Search Maps"
-#~ msgstr "Поиск карт"
+#~ msgstr "Search Maps"
 
 #~ msgid "Search"
-#~ msgstr "Поиск"
+#~ msgstr "Search"
 
 #~ msgid "Showing"
-#~ msgstr "Демонстрация"
+#~ msgstr "Showing"
 
 #~ msgid "Loading"
-#~ msgstr "Загрузка"
+#~ msgstr "Loading"
 
 #~ msgid "permalink"
-#~ msgstr "ссылка"
+#~ msgstr "permalink"
 
 #~ msgid "Select:"
-#~ msgstr "Выбрать:"
+#~ msgstr "Select:"
 
 #~ msgid "All"
-#~ msgstr "Все"
+#~ msgstr "All"
 
 #~ msgid "None"
-#~ msgstr "Ни одного"
+#~ msgstr "None"
+
+#~ msgid "Keyword"
+#~ msgstr "Keyword"
+
+#~ msgid "Showing..."
+#~ msgstr "Showing..."
 
 #~ msgid "Loading..."
-#~ msgstr "Загрузка…"
+#~ msgstr "Loading..."
 
 #~ msgid "You do not have permission to view this data"
-#~ msgstr "У Вас нет доступа для просмотра этих данных"
+#~ msgstr "You do not have permission to view this data"
 
 #~ msgid "This data is stored on a remote server"
-#~ msgstr "Эти данные хранятся на удаленном сервере"
+#~ msgstr "This data is stored on a remote server"
+
+#~ msgid "Invalid Query"
+#~ msgstr "Invalid Query"
+
+#~ msgid "You need to specify a search term"
+#~ msgstr "You need to specify a search term"
+
+#~ msgid "Source"
+#~ msgstr "Source"
+
+#~ msgid "Data Type"
+#~ msgstr "Data Type"
+
+#~ msgid "Date"
+#~ msgstr "Date"
+
+#~ msgid "from year"
+#~ msgstr "from year"
+
+#~ msgid "to year"
+#~ msgstr "to year"
+
+#~ msgid "Reset"
+#~ msgstr "Reset"
 
 #~ msgid "No abstract is provided for this layer."
-#~ msgstr "Для этого слоя нет аннотации."
+#~ msgstr "No abstract is provided for this layer."
 
 #~ msgid "No download URLs are definied for this layer."
-#~ msgstr "Не указаны ссылки (URL's) для скачивания этого слоя"
+#~ msgstr "No download URLs are definied for this layer."
+
+#~ msgid "Click here for more information about this layer."
+#~ msgstr "Click here for more information about this layer."
 
 #~ msgid "Selected Layers"
-#~ msgstr "Выделенные слои"
+#~ msgstr "Selected Layers"
 
 #~ msgid "No Layers Selected"
-#~ msgstr "Не выделены слои"
+#~ msgstr "No Layers Selected"
 
 #~ msgid "Clear Selected"
-#~ msgstr "Очистить выделенное"
+#~ msgstr "Clear Selected"
 
 #~ msgid "Clear All"
-#~ msgstr "Очистить все"
+#~ msgstr "Clear All"
 
 #~ msgid "Operation Failed"
-#~ msgstr "Операция не исполнена"
+#~ msgstr "Operation Failed"
 
 #~ msgid "No layers are currently selected."
-#~ msgstr "Ни одного слоя не выделено."
+#~ msgstr "No layers are currently selected."
 
 #~ msgid "Downloading..."
-#~ msgstr "Скачивание…"
+#~ msgstr "Downloading..."
 
 #~ msgid "Please wait"
-#~ msgstr "Пожалуйста, подождите"
+#~ msgstr "Please wait"
+
+#~ msgid "<iframe frameborder='0' width='0' height='0'/>"
+#~ msgstr "<iframe frameborder='0' width='0' height='0'/>"
+
+#~ msgid "<script>"
+#~ msgstr "<script>"
+
+#~ msgid "<div>"
+#~ msgstr "<div>"
+
+#~ msgid "Your layer was successfully uploaded"
+#~ msgstr "Your layer was successfully uploaded"
+
+#~ msgid ""
+#~ "You need to specify more information in order to complete your upload."
+#~ msgstr ""
+#~ "You need to specify more information in order to complete your upload."
+
+#~ msgid "You can continue configuring your layer."
+#~ msgstr "You can continue configuring your layer."
 
 #~ msgid ""
 #~ "January February March April May June July August September October "
