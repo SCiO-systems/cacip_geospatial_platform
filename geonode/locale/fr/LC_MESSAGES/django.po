@@ -2545,7 +2545,7 @@ msgstr "Aucune carte n'utilise cette couche"
 
 #, fuzzy
 #| msgid "Upload Metadata"
-msgid "Upload Datasets"
+msgid "Upload Layers"
 msgstr "Télécharger"
 
 #, python-format
@@ -2604,7 +2604,7 @@ msgstr "Les éléments suivants sont requis :"
 
 #, fuzzy
 #| msgid "Upload Layer Metadata"
-msgid "Upload Dataset Metadata"
+msgid "Upload Layer Metadata"
 msgstr "Téléchargez la couche"
 
 msgid "(XML - ISO, FGDC, ebRIM, Dublin Core)"
@@ -2670,7 +2670,7 @@ msgstr "Retourner à la couche"
 
 #, fuzzy
 #| msgid "Upload Layer Style"
-msgid "Upload Dataset Style"
+msgid "Upload Layer Style"
 msgstr "Télécharger le style de la couche"
 
 msgid "(SLD - Style Layer Descriptor 1.0, 1.1)"
@@ -2690,7 +2690,7 @@ msgstr "Attributs d'ensemble de données"
 
 #, fuzzy
 #| msgid "Upload Metadata"
-msgid "Upload Dataset"
+msgid "Upload Layer"
 msgstr "Télécharger"
 
 #, fuzzy
@@ -2742,7 +2742,7 @@ msgstr "Voulez-vous vraiment supprimer ce téléchargement?"
 
 #, fuzzy
 #| msgid "Upload Layer Step: Set SRS"
-msgid "Upload Dataset Step: Set SRS"
+msgid "Upload Layer Step: Set SRS"
 msgstr "Ajouter des fichiers: Sélectionner le SRS"
 
 msgid "Provide CRS for "
@@ -3055,7 +3055,7 @@ msgstr ""
 
 #, fuzzy
 #| msgid "Upload Layer Step: CSV Field Mapping"
-msgid "Upload Dataset Step: CSV Field Mapping"
+msgid "Upload Layer Step: CSV Field Mapping"
 msgstr "Étape du téléchargement de la couche : mappage de champ CSV"
 
 msgid "Geospatial Data"
@@ -3109,7 +3109,7 @@ msgstr "Formulaire d'envoi des données vers le serveur"
 
 #, fuzzy
 #| msgid "Upload Layer Step: Time"
-msgid "Upload Dataset Step: Time"
+msgid "Upload Layer Step: Time"
 msgstr "Étape du téléchargement de la couche : temps"
 
 msgid "Inspect data for "

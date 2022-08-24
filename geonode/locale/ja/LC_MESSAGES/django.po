@@ -2366,7 +2366,7 @@ msgstr "この動作は次の地図に影響します:"
 msgid "No maps are using this layer"
 msgstr "このレイヤーには地図が使われていません"
 
-msgid "Upload Datasets"
+msgid "Upload Layers"
 msgstr "データセットのアップロード"
 
 #, python-format
@@ -2422,7 +2422,7 @@ msgstr "ERROR"
 msgid "Following items are required:"
 msgstr "以下の項目は必須です:"
 
-msgid "Upload Dataset Metadata"
+msgid "Upload Layer Metadata"
 msgstr "データセットのメタデータをアップロード"
 
 msgid "(XML - ISO, FGDC, ebRIM, Dublin Core)"
@@ -2477,7 +2477,7 @@ msgstr "利用可能なスタイルを更新"
 msgid "Return to Layer"
 msgstr "レイヤーに戻る"
 
-msgid "Upload Dataset Style"
+msgid "Upload Layer Style"
 msgstr "データセットのスタイルをアップロード"
 
 msgid "(SLD - Style Layer Descriptor 1.0, 1.1)"
@@ -2495,7 +2495,7 @@ msgstr "プレビュー"
 msgid "Dataset Attributes"
 msgstr "データセットの属性"
 
-msgid "Upload Dataset"
+msgid "Upload Layer"
 msgstr "データセットをアップロード"
 
 msgid "Upload status"
@@ -2535,7 +2535,7 @@ msgstr "不完全なアップロードの削除"
 msgid "Are you sure you want to remove this incomplete upload?"
 msgstr "この不完全なアップロードを削除してもよろしいですか？"
 
-msgid "Upload Dataset Step: Set SRS"
+msgid "Upload Layer Step: Set SRS"
 msgstr "データセットアップロードの手順: SRSの設定"
 
 msgid "Provide CRS for "
@@ -2809,7 +2809,7 @@ msgstr ""
 "合にのみ使用する必要があります。\n"
 "                        "
 
-msgid "Upload Dataset Step: CSV Field Mapping"
+msgid "Upload Layer Step: CSV Field Mapping"
 msgstr "データセットアップロードの手順: CSVフィールドマッピング"
 
 msgid "Geospatial Data"
@@ -2852,7 +2852,7 @@ msgstr "戻る"
 msgid "Upload Form"
 msgstr "アップロードフォーム"
 
-msgid "Upload Dataset Step: Time"
+msgid "Upload Layer Step: Time"
 msgstr "データセットアップロードの手順: 時間"
 
 msgid "Inspect data for "
